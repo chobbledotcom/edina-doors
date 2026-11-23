@@ -81,6 +81,10 @@ directory data from `#collections/directory-data.js`. Only checks of a site's
 own generated artifacts, such as `.pages.yml` against its `site.json`, read the
 real files.
 
+Each Vitest invocation owns an isolated fixture directory, provided as
+`testSitesDir` by global setup. Teardown removes only that invocation’s directory,
+never the shared `test/.test-sites` parent while another test lane may be running.
+
 **Do not run `npm run test` repeatedly to diagnose one issue.** Start with a
 file, test name, or subsystem:
 

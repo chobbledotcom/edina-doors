@@ -21,7 +21,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import matter from "gray-matter";
-import { afterAll, beforeAll } from "vitest";
+import { afterAll, beforeAll, inject } from "vitest";
 import { directoryData } from "#collections/directory-data.js";
 import { ensureDir } from "#eleventy/file-utils.js";
 import { ROOT_DIR } from "#lib/paths.js";
@@ -130,7 +130,7 @@ const writeDirectoryData = (srcDir) => (collection) => {
 const createTestSite = async (options = {}) => {
   const randomId = () => Math.random().toString(36).slice(2, 10);
   const siteId = randomId();
-  const siteDir = path.join(import.meta.dirname, ".test-sites", siteId);
+  const siteDir = path.join(inject("testSitesDir"), siteId);
   const srcDir = path.join(siteDir, "src");
   const outputDir = path.join(siteDir, "_site");
   const templateSrc = path.join(rootDir, "src");
@@ -460,9 +460,8 @@ const useSiteAsWorkingDirectory = (options) => {
   afterAll(() => restore?.());
 };
 
-// The shared .test-sites root is swept by test/global-teardown.js after the
-// whole run, never mid-run: parallel workers build sibling sites in the same
-// root, so removing it from inside any single test file would race them.
+// Each Vitest process owns a fixture root supplied by global setup. Its
+// teardown removes only that root after its workers finish.
 
 /**
  * A standalone page file carrying the given design-system blocks, served at
