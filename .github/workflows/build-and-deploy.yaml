@@ -19,7 +19,34 @@ concurrency:
 # Secrets are passed by name, not inherited, so a fork in another
 # organisation can call the workflow too.
 jobs:
+  # The new deploy action needs the storage zone imported as a Bunny Site.
+  # This is a one-time import, kept here so a recreated zone can be recovered
+  # from a normal deploy run. It only acts on main.
+  setup_bunny_site:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure the storage zone is a Bunny Site
+        env:
+          BUNNYNET_API_KEY: ${{ secrets.BUNNY_ACCESS_KEY }}
+          BUNNY_STORAGE_ZONE_NAME: ${{ secrets.BUNNY_STORAGE_ZONE_NAME || secrets.BUNNY_PRODUCTION_STORAGE_ZONE_NAME }}
+          BUNNY_STORAGE_ZONE_ID: "2079920"
+        run: |
+          set -euo pipefail
+          if [ -z "${BUNNY_STORAGE_ZONE_NAME}" ]; then
+            echo "No Bunny storage zone name is set; skipping."
+            exit 0
+          fi
+          if npx --yes @bunny.net/cli@0.19 sites show "${BUNNY_STORAGE_ZONE_NAME}" --output json >/dev/null 2>&1; then
+            echo "Bunny Site ${BUNNY_STORAGE_ZONE_NAME} already exists."
+          else
+            npx --yes @bunny.net/cli@0.19 sites create "${BUNNY_STORAGE_ZONE_NAME}" \
+              --from-zone "${BUNNY_STORAGE_ZONE_ID}" --force --output json
+          fi
+
   build:
+    needs: setup_bunny_site
+    if: always() && (needs.setup_bunny_site.result == 'success' || needs.setup_bunny_site.result == 'skipped')
     permissions:
       contents: read
       deployments: write
