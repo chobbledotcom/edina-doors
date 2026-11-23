@@ -8,8 +8,12 @@ eleventyNavigation:
   parent: About
   order: 2
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # How a door installation works
 
       We prepare an initial quote from your photos, approximate measurements and preferred door styles. A site measure and final selections confirm the scope and price before we order materials and arrange installation.

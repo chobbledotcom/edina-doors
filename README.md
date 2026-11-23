@@ -48,6 +48,14 @@ verified new testimony from Michael.
 The visual layer uses native cross-document view transitions with reduced-motion
 support, translucent navigation, and decorative SVG architectural linework.
 No JavaScript transition framework is required.
+The About planning section, Contact introduction, Doors frame section and footer
+use generated character photographs from `src/images/people/`. Image headers
+also cover advice and project pages. Section-edge masks inherit the following
+section’s colour; footer linework scales across the full footer.
+
+Search keeps the query in the results-page field and allows it to be edited
+without leaving the results page. Keep the results field scoped to `main`,
+separate from the navigation search.
 
 Copy uses plain Australian English and specific product or installation facts.
 The DB/USB page-grading rules and shared AI-trope catalogue in `../bcn-tools/`

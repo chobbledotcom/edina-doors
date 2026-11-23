@@ -5,8 +5,12 @@ meta_description: Compare Edina’s timber and aluminium package requirements, t
 permalink: /door-advice/timber-aluminium-exposure/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/aluminium-macro.jpg
+    image_alt: Generated illustration of an aluminium door detail
+    tint: true
+    class: category-hero
+    content: |
       # Timber or aluminium: what does your entrance need?
 
       Timber doors can use a suitable existing frame and require sealing and finishing by others. Aluminium doors come as a complete new entry set with a new frame. Exposure and the selected manufacturer’s requirements also need checking before you choose.

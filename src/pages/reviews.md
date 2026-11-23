@@ -5,8 +5,12 @@ meta_description: Draft review page awaiting customer feedback and links to the 
 permalink: /reviews/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/brass-macro.jpg
+    image_alt: Generated illustration of brass-toned door hardware
+    tint: true
+    class: category-hero
+    content: |
       # Customer reviews
 
       **Draft: customer reviews and source links still need to be added.**

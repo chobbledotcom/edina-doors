@@ -10,8 +10,12 @@ eleventyNavigation:
   parent: About
   order: 3
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/handle-macro.jpg
+    image_alt: Generated illustration of a door handle detail
+    tint: true
+    class: category-hero
+    content: |
       # Brands We Work With
 
       We supply and install doors, frames, handles and smart locks from Australian and New Zealand brands. We select products to suit your home or building project.

@@ -5,8 +5,12 @@ meta_description: Draft checklist for Edina’s contracting name, QBCC licence, 
 permalink: /credentials/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/painted-door-macro.jpg
+    image_alt: Generated illustration of a painted door detail
+    tint: true
+    class: category-hero
+    content: |
       # Business details
 
       **Draft: Michael needs to confirm the details in this checklist before publication.**

@@ -9,8 +9,12 @@ eleventyNavigation:
   parent: About
   order: 3
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/aluminium-macro.jpg
+    image_alt: Generated illustration of an aluminium door detail
+    tint: true
+    class: category-hero
+    content: |
       # Sunshine Coast service areas
 
       Include your suburb when you [enquire about a job](/contact/). Michael will confirm whether he can supply and install at your location.

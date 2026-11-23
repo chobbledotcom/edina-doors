@@ -41,13 +41,16 @@ blocks:
         name: Frame configurations
         description: Single and double doors with sidelights and transoms, identified by configuration code for quoting.
         link: /entry-door-frame-configurations/
-  - type: markdown
+  - type: split-image
     content: |
       ## Frames and glazing
 
       Solid timber doors can be fitted into suitable existing frames, or supplied and installed as a complete door package including the frame, hardware and glazing where required. Aluminium entrance doors are available only as complete new door sets, including a new frame.
 
       Sidelights can be tailored to suit your entrance with clear, Translam or grey-tinted glass. For ventilation, we can incorporate Breezway louvre cassettes, with metal mesh security screens available as an additional option.
+    figure_src: people/michael-frame-workshop.jpg
+    figure_alt: AI-generated stand-in in a sleeveless work vest assembling a timber door frame
+    figure_caption: AI-generated workshop scene.
   - type: snippet
     reference: contact-form
 ---

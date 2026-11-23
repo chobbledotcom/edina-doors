@@ -5,8 +5,12 @@ meta_description: A sample existing-door brief covering Vault smart-lock compati
 permalink: /projects/noosa-smart-lock-retrofit/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/smart-lock-macro.jpg
+    image_alt: Generated illustration of a smart-lock detail
+    tint: true
+    class: category-hero
+    content: |
       # Noosa smart-lock retrofit: sample brief
 
       **Sample brief — not a completed Edina job.** Noosa is a fictional scenario location, not confirmed service coverage.

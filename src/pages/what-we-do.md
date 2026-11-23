@@ -10,8 +10,12 @@ eleventyNavigation:
   parent: About
   order: 1
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/barn-track-macro.jpg
+    image_alt: Generated illustration of a barn door track detail
+    tint: true
+    class: category-hero
+    content: |
       # What We Do
 
       Edina Doors provides door supply and installation, alongside finishing carpentry, for homeowners and builders across the Sunshine Coast. From individual replacements to complete fit-outs, our work includes:

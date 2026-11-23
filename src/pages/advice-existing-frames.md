@@ -5,8 +5,12 @@ meta_description: Timber and internal doors can use suitable existing frames; al
 permalink: /door-advice/existing-frames/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # Can a new door go in the existing frame?
 
       Edina can fit timber and internal doors into suitable existing frames. Aluminium entrance doors are supplied only as complete door-and-frame packages. The frame is assessed at the site measure.

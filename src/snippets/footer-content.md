@@ -3,9 +3,14 @@ name: Footer Content
 ---
 
 <div class="footer-intro">
-  <p class="footer-eyebrow">Sunshine Coast, Queensland</p>
-  <h2>Ask Michael about your doors.</h2>
-  <a class="btn" href="/contact/">Send an enquiry ↗</a>
+  <figure class="footer-portrait">
+    <img src="/images/people/michael-headset.jpg" width="684" height="684" loading="lazy" alt="AI-generated stand-in wearing a telephone headset" />
+  </figure>
+  <div class="footer-contact-prompt">
+    <p class="footer-eyebrow">Sunshine Coast, Queensland</p>
+    <h2>Ask Michael about your doors.</h2>
+    <a class="btn" href="/contact/">Send an enquiry ↗</a>
+  </div>
 </div>
 <div class="footer-grid">
   <div class="footer-brand">

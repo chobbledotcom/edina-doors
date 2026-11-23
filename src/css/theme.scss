@@ -44,6 +44,10 @@
 		position: relative;
 	}
 
+	main > section:has(+ section:nth-child(even)) {
+		--section-edge-color: var(--body-background-alt);
+	}
+
 	section:has(.hero) {
 		background: url("/images/graphics/door-linework.svg") right center / auto 100% no-repeat;
 	}
@@ -96,7 +100,9 @@
 			height: clamp(1.5rem, 4vw, 3.75rem);
 			padding: 0;
 
-			background: url("/images/graphics/section-edge.svg") center / 100% 100% no-repeat;
+			background: var(--section-edge-color, var(--color-bg));
+
+			mask: url("/images/graphics/section-edge.svg") center / 100% 100% no-repeat;
 		}
 
 		> figure {
@@ -164,6 +170,25 @@
 
 	.material-interlude {
 		min-height: 30rem;
+	}
+
+	main:has(#search-results) {
+		> section {
+			padding-block: var(--space-lg);
+			background: transparent;
+		}
+
+		h1 {
+			font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+		}
+
+		.search-box {
+			max-width: 48rem;
+		}
+
+		#search-results {
+			margin-top: 0;
+		}
 	}
 
 	.badge,
@@ -236,6 +261,9 @@
 	}
 
 	footer {
+		isolation: isolate;
+		position: relative;
+
 		display: flex;
 		flex-direction: column;
 		gap: 3rem;
@@ -245,7 +273,20 @@
 		color: #e5e4d9;
 		text-align: left;
 
-		background: #202c27 url("/images/graphics/door-linework.svg") right top / auto 42rem no-repeat;
+		background: #202c27;
+
+		&::before {
+			pointer-events: none;
+			content: "";
+
+			position: absolute;
+			z-index: -1;
+			inset: 0;
+
+			background: url("/images/graphics/door-linework.svg") right top / 100% 100% no-repeat;
+
+			mask-image: linear-gradient(180deg, #000 0%, #000 65%, transparent 100%);
+		}
 
 		p {
 			margin: 0;
@@ -262,7 +303,7 @@
 		}
 
 		h2 {
-			font-size: clamp(3rem, 6vw, 5rem);
+			font-size: clamp(1.75rem, 2.8vw, 2.75rem);
 			color: #fff9eb;
 		}
 
@@ -290,12 +331,43 @@
 
 	.footer-intro {
 		display: flex;
-		flex-direction: column;
-		gap: 1.4rem;
-		align-items: start;
+		flex-wrap: wrap;
+		gap: 2rem;
+		align-items: center;
 
 		padding-bottom: 3rem;
 		border-bottom: 1px solid rgb(229 228 217 / 22%);
+	}
+
+	.footer-portrait {
+		overflow: hidden;
+		flex: 0 0 clamp(8rem, 14vw, 12rem);
+
+		aspect-ratio: 1;
+		border: 1px solid rgb(229 228 217 / 30%);
+		border-radius: 50%;
+
+		background: #eae5da;
+
+		.image-wrapper,
+		picture,
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			object-fit: cover;
+		}
+	}
+
+	.footer-contact-prompt {
+		display: flex;
+		flex: 1 1 20rem;
+		flex-direction: column;
+		gap: 1.2rem;
+		align-items: start;
 	}
 
 	.footer-grid {

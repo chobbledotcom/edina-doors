@@ -5,8 +5,12 @@ meta_description: Check Vault smart-lock compatibility, household access methods
 permalink: /door-advice/smart-lock-considerations/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/smart-lock-macro.jpg
+    image_alt: Generated illustration of a smart-lock detail
+    tint: true
+    class: category-hero
+    content: |
       # What should you ask before choosing a smart lock?
 
       First check whether the lock suits your door, frame and hardware. Then choose the access methods, power arrangements and remote functions you need. Features differ between Vault models.

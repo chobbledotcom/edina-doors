@@ -5,8 +5,12 @@ meta_description: A sample room-by-room brief for internal doors, frames, new ha
 permalink: /projects/maroochydore-internal-fit-out/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/painted-door-macro.jpg
+    image_alt: Generated illustration of a painted door detail
+    tint: true
+    class: category-hero
+    content: |
       # Maroochydore internal fit-out: sample brief
 
       **Sample brief — not a completed Edina job.** Maroochydore is a fictional scenario location, not confirmed service coverage.

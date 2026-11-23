@@ -35,7 +35,7 @@ const createMockPagefind = (resultHandles = []) => ({
 // ============================================
 
 const SEARCH_HTML = `
-  <div class="design-system">
+  <main class="design-system">
     <form action="/search/" method="get" class="search-box">
       <input type="search" name="q" placeholder="Search" autocomplete="off">
       <button type="submit">Search</button>
@@ -50,7 +50,7 @@ const SEARCH_HTML = `
       <ul class="search-results-list"></ul>
       <button class="search-load-more btn btn--secondary" hidden>Load more</button>
     </div>
-  </div>
+  </main>
 `;
 
 const setSearchParam = (value) => {
@@ -355,18 +355,22 @@ describe("initSearch", () => {
           </form>
         </nav>
         <main>
-          <div data-pagefind-ignore>
-            <div class="design-system">
+          <section>
+            <div class="container-wide">
               <form action="/search/" method="get" class="search-box">
                 <input type="search" name="q" id="page-input">
               </form>
             </div>
-            <div id="search-results">
-              <p class="search-message"></p>
-              <ul class="search-results-list"></ul>
-              <button class="search-load-more" hidden></button>
+          </section>
+          <section>
+            <div data-pagefind-ignore>
+              <div id="search-results">
+                <p class="search-message"></p>
+                <ul class="search-results-list"></ul>
+                <button class="search-load-more" hidden></button>
+              </div>
             </div>
-          </div>
+          </section>
         </main>
       </body>
     `;

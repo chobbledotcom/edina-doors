@@ -7,8 +7,12 @@ eleventyNavigation:
   key: Advice
   order: 4
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # Before you replace a door
 
       You can make an enquiry with photos, approximate measurements and a preferred style. Tell Edina what you want to change and what you hope to keep; the site measure checks the opening and installation requirements.

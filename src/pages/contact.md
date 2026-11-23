@@ -8,11 +8,14 @@ eleventyNavigation:
   key: Contact
   order: 7
 blocks:
-  - type: section-header
-    intro: |
+  - type: split-image
+    content: |
       # Contact Edina Doors
 
       Use the form to ask about door supply and installation on the Sunshine Coast. You can also email [info@edinadoors.com.au](mailto:info@edinadoors.com.au) with photos or questions.
+    figure_src: people/michael-van.jpg
+    figure_alt: AI-generated stand-in winking from the window of an Edina Doors van
+    figure_caption: AI-generated stand-in.
   - type: snippet
     reference: contact-form
   - type: markdown

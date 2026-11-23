@@ -8,8 +8,12 @@ eleventyNavigation:
   key: Projects
   order: 5
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/barn-track-macro.jpg
+    image_alt: Generated illustration of a barn door track detail
+    tint: true
+    class: category-hero
+    content: |
       # Sample door project briefs
 
       **Sample briefs — not completed Edina jobs.** The town names describe fictional scenarios, not confirmed service coverage.

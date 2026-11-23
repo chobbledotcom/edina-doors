@@ -55,13 +55,16 @@ blocks:
       - icon: hugeicons:house-01
         name: Doors, frames and hardware
         description: We supply the doors and hardware we install. Frames and glazing are included where the job requires them.
-  - type: markdown
+  - type: split-image
     content: |
       ## Planning your job
 
       Read [what Edina does and doesn’t do](/what-we-do/) and the [installation process](/process/). Include your suburb in the enquiry so Michael can check the location.
 
       **Draft notes:** [business details to confirm](/credentials/) · [reviews to add](/reviews/) · [service areas to confirm](/service-areas/).
+    figure_src: people/michael-planning.jpg
+    figure_alt: AI-generated stand-in wearing glasses and planning a doorway in a notebook
+    figure_caption: AI-generated stand-in.
   - type: snippet
     reference: contact-form
 ---

@@ -5,8 +5,12 @@ meta_description: A sample timber entrance brief covering existing frames, glazi
 permalink: /projects/buderim-timber-entry/
 no_index: true
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/brass-macro.jpg
+    image_alt: Generated illustration of brass-toned door hardware
+    tint: true
+    class: category-hero
+    content: |
       # Buderim timber entry: sample brief
 
       **Sample brief — not a completed Edina job.** Buderim is a fictional scenario location, not confirmed service coverage.
