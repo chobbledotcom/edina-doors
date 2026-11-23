@@ -1,0 +1,20 @@
+{%- comment -%}
+Video iframe with privacy-protecting defaults, shared by the video blocks.
+
+Parameters:
+  - video_id: YouTube video ID, or the embed URL of another provider (required)
+  - name: Accessible title for the iframe (required)
+  - mode: "click" (default) for a video the visitor started, "autoplay" for
+          one that starts muted when it scrolls into view, or "background"
+          for one that loops silently behind content. A background video is
+          not lazy-loaded: it must load to start playing.
+{%- endcomment -%}
+
+<iframe
+  src="{{ video_id | videoEmbedUrl: mode }}"
+  title="{{ name }}"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  {% unless mode == "background" %}loading="lazy"{% endunless %}
+  referrerpolicy="origin"
+></iframe>

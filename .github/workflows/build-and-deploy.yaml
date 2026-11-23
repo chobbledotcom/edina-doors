@@ -1,0 +1,39 @@
+name: Build and Deploy
+
+on:
+  # main deploys; a pull request only builds, so a broken change fails before
+  # it is merged.
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+# Let an in-flight deploy finish rather than cancelling it mid-upload.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+# The build and deploy steps are the ones every Chobble site shares, kept in
+# chobble-client. `standalone` builds this repository on its own with npm.
+# Secrets are passed by name, not inherited, so a fork in another
+# organisation can call the workflow too.
+jobs:
+  build:
+    permissions:
+      contents: read
+      deployments: write
+    uses: chobbledotcom/chobble-client/.github/workflows/shared-build-and-deploy.yml@main
+    with:
+      standalone: true
+      runs-on: ubuntu-latest
+    secrets:
+      BUNNY_ACCESS_KEY: ${{ secrets.BUNNY_ACCESS_KEY }}
+      BUNNY_STORAGE_ZONE_NAME: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+      # Older sites kept the site name under this key; the shared workflow
+      # falls back to it when BUNNY_STORAGE_ZONE_NAME is unset.
+      BUNNY_PRODUCTION_STORAGE_ZONE_NAME: ${{ secrets.BUNNY_PRODUCTION_STORAGE_ZONE_NAME }}
+      FORMSPARK_ID: ${{ secrets.FORMSPARK_ID }}
+      BOTPOISON_PUBLIC_KEY: ${{ secrets.BOTPOISON_PUBLIC_KEY }}
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
