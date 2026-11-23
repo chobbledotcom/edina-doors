@@ -10,8 +10,12 @@ eleventyNavigation:
   parent: Doors
   order: 5
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # Choose Your Door Frame Configuration
 
       Explore the layouts below, from single and double doors to combinations with sidelights and transoms. When requesting a quote, include the configuration code — for example, EDF-01 — along with your preferred door design. Final dimensions and suitability will be confirmed during your site measure.
@@ -77,13 +81,6 @@ blocks:
         caption: Grey-tinted glass
       - image: doors/glass-louvre-cassette.png
         caption: Glass louvre cassette
-  - type: cta
-    content: |
-      ## Quote your door and frame together
-
-      Send us the configuration code and door design you prefer. We’ll confirm dimensions, glass and hardware and prepare an initial quote.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

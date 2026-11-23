@@ -7,15 +7,19 @@ eleventyNavigation:
   key: Door Hardware
   order: 3
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/handle-macro.jpg
+    image_alt: Generated illustration of a door lever
+    tint: true
+    class: category-hero
+    content: |
       # Door Hardware
 
-      Edina exclusively supplies and installs Handle House handles and hardware. Explore the selected range below, or ask us to source your preferred option from the wider collection.
+      We exclusively supply and install Handle House handles and hardware. We can also source products from their wider collection.
   - type: image-cards
     image_aspect_ratio: "1/1"
     intro_content: |
-      ## Explore the hardware ranges
+      ## Hardware ranges
     items:
       - image: home/range-smart-locks.png
         name: Smart locks
@@ -49,16 +53,11 @@ blocks:
     content: |
       ## Hardware chosen for the door
 
-      Hardware is selected to suit the door thickness, weight, clearance and required function. Available as part of an Edina door package or an upgrade to suitable existing doors, with finishes to coordinate with your selected handles and locks.
+      We select hardware to suit the door thickness, weight, clearance and required function, with finishes to match your handles and locks. We can fit it as part of an Edina door package or upgrade suitable existing doors.
 
-      Handle House offers an extensive range of handles, door hardware and accessories, which we can also source and install to suit your project.
-  - type: cta
-    content: |
-      ## Match the hardware to the door
+      Ask us about other handles, hardware and accessories from Handle House’s range.
 
-      Tell us which door or doors you’re fitting and how you’ll use them. We’ll recommend a lever, pull, lock and finish that work together.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      Include which doors you’re fitting and how you’ll use them so we can recommend a lever, pull, lock and finish that work together.
+  - type: snippet
+    reference: contact-form
 ---

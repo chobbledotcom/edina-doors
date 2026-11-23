@@ -22,7 +22,8 @@ This is the canonical handwritten engineering policy and workflow. Consult:
 2. Make the smallest correct change. Prefer existing helpers and clear, small functions over new abstractions or duplicated logic.
 3. Add behavioral tests using the canonical test criteria and the shared helpers exported by `#test/test-utils.js`.
 4. Run focused tests while iterating, then the relevant quality gates and lint. Regenerate affected artifacts and check the diff.
-5. Run the full `npm run test` once at the end before committing. Report commands, results, and any verification that could not run. Commit only when requested.
+5. Run the full `npm run test` once at the end before committing. Report commands, results, and any verification that could not run.
+6. Unless the user asks to hold deployment, commit completed, verified changes, push `main`, watch the deployment and test workflows, then check the live site at `https://edina-doors.b-cdn.net`.
 
 Use **npm** for all package management. Install with `npm install`; see the
 generated reference for the current Node requirement and command definitions. Do

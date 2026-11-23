@@ -20,7 +20,6 @@
   {%- unless no_navigation -%}
     {%- include "navigation.html" -%}
   {%- endunless -%}
-  <p class="design-preview" data-pagefind-ignore>Design preview <span aria-hidden="true">/</span> <a href="/image-transparency/">Illustrative images &amp; sample content explained</a></p>
   <main id="content"{% if pagefind_body %} data-pagefind-body{% endif %}>
     {%- if config.show_breadcrumbs and page.url != pageLanguage.home_url -%}
       {%- unless no_breadcrumbs -%}

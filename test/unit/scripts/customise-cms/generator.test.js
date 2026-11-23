@@ -128,6 +128,26 @@ describe("generatePagesYaml collections", () => {
     expect(getSection("snippets")(yaml)).toContain("name: body");
   });
 
+  test("lets editors create reusable contact-form snippets", () => {
+    const parsed = YAML.parse(
+      generatePagesYaml(
+        createTestConfig({ collections: ["pages", "snippets"] }),
+      ),
+    );
+    const snippets = parsed.content.find((entry) => entry.name === "snippets");
+    const editor = snippets.fields.find((field) => field.name === "blocks");
+
+    expect(editor).toMatchObject({
+      type: "block",
+      list: true,
+      blockKey: "type",
+    });
+    expect(editor.blocks).toContainEqual({
+      name: "contact-form",
+      component: "block_contact_form",
+    });
+  });
+
   test("excludes snippets when not in collections list", () => {
     const yaml = generatePagesYaml(createTestConfig());
 
@@ -297,16 +317,6 @@ describe("generatePagesYaml blocks", () => {
     const matches = pagesSection.match(/name: blocks/g);
 
     expect(matches).toHaveLength(1);
-  });
-
-  test("does not add blocks to snippets", () => {
-    const yaml = generatePagesYaml(
-      createTestConfig({
-        collections: ["pages", "snippets"],
-      }),
-    );
-
-    expect(getSection("snippets")(yaml)).not.toContain("name: blocks");
   });
 });
 

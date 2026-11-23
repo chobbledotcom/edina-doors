@@ -11,68 +11,57 @@ eleventyNavigation:
 blocks:
   - type: split-image
     content: |
-      # Our Story
+      # About Michael Dunn
 
-      Edina Doors is a Sunshine Coast business founded by Michael Dunn, a qualified carpenter originally from Edinburgh, Scotland. The name Edina reflects that connection to Edinburgh, while the Sunshine Coast is now home to Michael, his wife and their two daughters.
+      Edina Doors is run by Michael Dunn, a qualified carpenter from Edinburgh, Scotland. He now lives on the Sunshine Coast with his wife and two daughters. Edina is a name for Edinburgh.
 
-      After several years operating a general carpentry business, Michael established Edina to focus on doors and finishing carpentry — the details that bring a space together. That practical experience shapes the business, from product selection and site measurements through to installation.
-
-      Edina provides door supply and installation packages for homeowners and builders, bringing doors, frames and hardware together through one point of contact. We help clients work through the available styles, sizes and configurations to find a suitable solution for their project.
-
-      As a small, hands-on business, Edina offers direct communication with the carpenter carrying out the work. Michael remains involved from the initial enquiry through to installation, providing continuity and a straightforward, personal service.
+      Michael supplies and installs doors for homeowners and builders. He helps with styles, sizes, frames and hardware, measures the opening and carries out the installation. You deal with him from the first enquiry through to completion.
     figure_src: people/michael-portrait.jpg
     figure_alt: Fictional AI-generated adult carpenter portrait, not Michael Dunn
-    figure_caption: "Illustrative AI-generated stand-in — this is not Michael Dunn. A real portrait is pending."
+    figure_caption: "AI-generated stand-in, not Michael Dunn."
   - type: split-image
     reverse: true
     content: |
-      ## A personal business, not an anonymous showroom
+      ## Before Edina Doors
 
-      The story above is Michael’s. The people in these images are not. This design uses a fictional generated portrait and family scene until Michael chooses photographs he is comfortable publishing.
+      Michael ran a general carpentry business for several years before starting Edina. He set up the business to focus on doors and finishing carpentry.
 
-      Neither image is evidence of who works at Edina or of work completed for a customer. Read our [image transparency note](/image-transparency/) for the distinction between product imagery, illustrative scenes and future job photography.
+      ### Draft notes for Michael
 
-      ### Help finish the real story
-
-      Michael: which parts of your earlier general carpentry work best explain the move into doors and finishing carpentry? If you want to name a previous business or publish a start date, please supply the details you want customers to verify.
+      - Add an example of earlier carpentry work that led to the focus on doors.
+      - Confirm any previous business name and dates you want included.
+      - Replace the generated portrait and family picture with photographs you have permission to publish.
     figure_src: people/michael-family.jpg
     figure_alt: Fictional AI-generated family scene, not Michael Dunn or his family
-    figure_caption: "Fictional AI-generated family stand-ins — not Michael, his wife or their daughters."
+    figure_caption: "AI-generated family, not Michael, his wife or their daughters."
   - type: gallery
     intro_content: |
-      ## The name behind the business
+      ## Edinburgh
 
-      Edina is a name for Edinburgh, the Scottish city in Michael’s story.
+      Michael grew up in Edinburgh before moving to the Sunshine Coast.
     items:
       - image: about/edinburgh-street.png
-        caption: Edinburgh street image — context for the name, not a photograph of Michael’s work.
+        caption: Edinburgh
   - type: features
     intro_content: |
       ## How Edina works
     items:
       - icon: hugeicons:customer-support
         name: Direct communication
-        description: You deal with the carpenter carrying out the work, from the first enquiry through to installation.
+        description: Michael is your contact from the first enquiry through to installation.
       - icon: hugeicons:ruler
         name: Measured on site
         description: Openings, existing frames and installation requirements are confirmed at your property before ordering.
       - icon: hugeicons:house-01
-        name: Doors and details together
-        description: Doors, frames, glazing and hardware are brought together as one package, with the finishing details considered.
+        name: Doors, frames and hardware
+        description: We supply the doors and hardware we install. Frames and glazing are included where the job requires them.
   - type: markdown
     content: |
-      ## Clear information before you book
+      ## Planning your job
 
-      Read [what Edina does and doesn’t do](/what-we-do/) and the [nine-step process](/process/) before planning the work. The [service-area draft](/service-areas/) identifies locations still awaiting confirmation, not a promise to travel to every town.
+      Read [what Edina does and doesn’t do](/what-we-do/) and the [installation process](/process/). Include your suburb in the enquiry so Michael can check the location.
 
-      Our [credentials checklist](/credentials/) and [reviews page](/reviews/) openly show what still needs to be verified for launch. We do not use invented licence details, badges or customer testimonials to fill the gaps.
-  - type: cta
-    content: |
-      ## Talk to the carpenter
-
-      Tell us what you have in mind and we’ll talk through the doors, hardware and installation options for your project.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      **Draft notes:** [business details to confirm](/credentials/) · [reviews to add](/reviews/) · [service areas to confirm](/service-areas/).
+  - type: snippet
+    reference: contact-form
 ---

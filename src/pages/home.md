@@ -16,24 +16,24 @@ blocks:
     tint: true
     badge: Sunshine Coast · Queensland
     content: |
-      # A considered entrance. A personal service.
+      # Door supply & installation
 
-      Timber and aluminium doors, architectural hardware and smart locks. Supplied and fitted on the Sunshine Coast by carpenter Michael Dunn.
+      We supply and fit timber and aluminium entry doors, internal doors, hardware and Vault smart locks on the Sunshine Coast.
     buttons:
       - text: Request a quote
         href: /contact/
         variant: primary
         size: lg
-      - text: Explore the ranges
+      - text: View the door ranges
         href: /doors/
         variant: secondary
         size: lg
   - type: image-cards
     image_aspect_ratio: "4/3"
     intro_content: |
-      ## Good doors. Beautiful details.
+      ## Door ranges
 
-      An entrance with presence. A quieter interior. Hardware that feels right in your hand. Explore the ranges, then talk through the opening, the frame and the fit with the person who will install it.
+      Choose a range to see the styles, sizes and installation options. If you already have a door in mind, send us a photo with your enquiry.
     items:
       - image: home/range-timber.png
         name: Timber entry doors
@@ -61,22 +61,22 @@ blocks:
         link: /smart-locks/
   - type: split-image
     content: |
-      ## From Edinburgh to your front door.
+      ## Meet Michael Dunn
 
-      Edina Doors brings door selection, supply and installation together in one personal service. You deal directly with Michael Dunn, the carpenter fitting your doors, from the first conversation to the final adjustment.
+      Michael is a qualified carpenter from Edinburgh who now lives on the Sunshine Coast with his wife and two daughters. He ran a general carpentry business before starting Edina Doors.
 
-      The name is a nod to Edinburgh, where Michael grew up. The approach is straightforward: understand the opening, choose the right combination and take care over the fitting.
+      He measures the opening, helps you choose the doors and hardware, and carries out the installation. You deal with him throughout the job.
     button:
       text: Meet Michael
       href: /about/
       variant: secondary
     figure_src: people/michael-portrait.jpg
     figure_alt: Fictional generated stand-in for an adult carpenter, not Michael Dunn
-    figure_caption: "Portrait placeholder: this fictional AI-generated person is not Michael. A real portrait will replace it."
+    figure_caption: "AI-generated stand-in, not Michael Dunn."
   - type: split-image
     reverse: true
     content: |
-      ## A clear process, from quote to handover
+      ## From quote to installation
 
       Tell us what you have in mind and we prepare an initial quote. A site measure confirms the opening, the existing frame and the installation requirements. We then confirm the scope, order the doors and hardware, and arrange an installation date.
 
@@ -87,30 +87,30 @@ blocks:
       variant: secondary
     figure_src: people/michael-on-site.jpg
     figure_alt: Fictional generated carpenter checking a timber door with a level in a staged illustrative scene
-    figure_caption: "Staged AI illustration, not an Edina installation. The process described is from the existing site."
+    figure_caption: "AI-generated scene, not Michael or an Edina installation."
   - type: image-background
     class: material-interlude
     image: editorial/handle-macro.jpg
     image_alt: AI-generated macro study of a dark lever handle against oak, not a catalogue product photograph
     tint: true
-    badge: The details make the difference
+    badge: Handles, hinges & locks
     content: |
-      ## More than the door leaf.
+      ## Door hardware
 
-      Frames. Glazing. Handles. Hinges. The way it all comes together matters. We work with Handle House hardware and supply, fit and set up Vault smart locks.
+      Choose levers, pull handles, deadbolts and hinges from Handle House. We also supply and install Vault smart locks, including setup and a demonstration.
     buttons:
-      - text: Explore the hardware
+      - text: View the hardware
         href: /door-hardware/
         variant: secondary
   - type: features
     intro_content: |
-      ## Before you choose a door.
+      ## Planning a door replacement
 
-      A useful website should help you ask better questions—not just show you a catalogue.
+      Check the frame requirements and finishing arrangements before choosing a door.
     items:
       - name: Can I keep my frame?
         description: |
-          Timber and internal doors can be fitted to suitable existing frames. Aluminium entry doors need a complete new door-and-frame package. [Start with the advice notebook](/door-advice/).
+          Timber and internal doors can be fitted to suitable existing frames. Aluminium entry doors need a complete new door-and-frame package. [Read about existing frames](/door-advice/existing-frames/).
       - name: Who does the finishing?
         description: |
           Edina does not paint, stain or seal doors and timber components. Arrange finishing by others and discuss it before the installation. [Read the full scope](/what-we-do/).
@@ -120,36 +120,36 @@ blocks:
   - type: image-cards
     image_aspect_ratio: "16/9"
     intro_content: |
-      ## The project notebook, taking shape.
+      ## Sample project briefs
 
-      Real projects will tell the story best. These are **illustrative editorial briefs, not completed jobs**: the spaces where Michael’s photographs, local experience and customer-approved details will go.
+      **These are planning examples, not completed Edina jobs.** Each brief lists the information and photographs needed for a future project page.
     items:
       - image: editorial/workshop-detail.jpg
-        name: Buderim · a timber entrance
-        description: "Sample brief: the opening, the frame, the glazing and the finishing plan. AI material-study image, not a job photograph."
-        link: /projects/
+        name: Buderim · timber entry door
+        description: "Sample brief covering the existing frame, glazing and finishing. AI-generated image."
+        link: /projects/buderim-timber-entry/
       - image: home/range-internal.png
         name: Maroochydore · an interior fit-out
-        description: "Sample brief: a consistent door and hardware schedule, with real before-and-after photos still to come. Catalogue illustration."
-        link: /projects/
+        description: "Sample brief covering the room-by-room door and hardware schedule. Range illustration."
+        link: /projects/maroochydore-internal-fit-out/
       - image: home/range-smart-locks.png
-        name: Noosa · a smart-lock conversation
-        description: "Sample brief: door compatibility, the chosen Vault lock and the handover. Product illustration, not installation evidence."
-        link: /projects/
+        name: Noosa · smart-lock retrofit
+        description: "Sample brief covering door compatibility, the Vault lock and setup. Product illustration."
+        link: /projects/noosa-smart-lock-retrofit/
   - type: split-image
     content: |
-      ## Local knowledge, not a list of postcodes.
+      ## Sunshine Coast enquiries
 
-      Edina’s existing site describes supply and installation across the Sunshine Coast. The next step is to show the work behind that: actual local jobs, clear travel arrangements and advice grounded in Michael’s experience.
+      Send your suburb, photos of the opening and a description of the work. Michael will confirm whether he can take on the job at your location.
 
-      Our service-area planning page marks the details still to confirm. It is not a promise of coverage in every suburb.
+      **Draft note:** individual service areas and travel arrangements still need Michael’s confirmation.
     button:
-      text: Service areas & what to confirm
+      text: Service-area details
       href: /service-areas/
       variant: secondary
     figure_src: home/hero-coastal-timber-entry.png
     figure_alt: Illustrative architectural render of a coastal home entrance, not an Edina project
-    figure_caption: "Architectural illustration. Real Sunshine Coast project photography will replace sample imagery."
+    figure_caption: "Architectural illustration, not an Edina project."
   - type: split-full
     variant: dark-right
     left_content: |
@@ -180,7 +180,7 @@ blocks:
     intro_content: |
       ## Brands we work with
 
-      Established Australian and New Zealand door and hardware brands, selected to suit the job.
+      Door City, Parkwood, Handle House, Vault, Corinthian and Hume.
     height: 60px
     speed: 40s
     items:
@@ -206,13 +206,6 @@ blocks:
     text: More about our brands
     href: /brands/
     variant: secondary
-  - type: cta
-    content: |
-      ## Let’s Talk Doors
-
-      Tell us what you have in mind. Share a few details and photos, and we’ll get back to you to discuss door options, installation and a quote.
-    button:
-      text: Enquire with Edina
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

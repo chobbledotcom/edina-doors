@@ -10,8 +10,12 @@ eleventyNavigation:
   parent: Door Hardware
   order: 4
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/deadbolt-macro.jpg
+    image_alt: Generated illustration of a door deadbolt
+    tint: true
+    class: category-hero
+    content: |
       # Deadbolts
 
       Our selected Handle House deadbolts provide a straightforward locking option for entrance doors, paired with your choice of lever or pull handle.
@@ -33,13 +37,8 @@ blocks:
   - type: markdown
     content: |
       Available for suitable existing doors or as part of a complete Edina entry door package, subject to door and hardware compatibility. Pair a deadbolt with a [lever handle](/lever-handles/) or an [entrance pull handle](/pull-handles/) to suit the door.
-  - type: cta
-    content: |
-      ## Decide how the door should lock
 
-      Tell us whether you need a key on both sides or a thumbturn inside. We’ll confirm the backset and hardware to suit your door.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      For a quote, let us know whether you need a key on both sides or a thumbturn inside. We’ll confirm the backset and hardware to suit your door.
+  - type: snippet
+    reference: contact-form
 ---

@@ -8,14 +8,18 @@ eleventyNavigation:
   parent: Door Hardware
   order: 6
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/barn-track-macro.jpg
+    image_alt: Generated illustration of a barn door track
+    tint: true
+    class: category-hero
+    content: |
       # Barn Door Hardware
 
-      Barn door track systems allow the door to slide smoothly along the wall, with a choice of styles and finishes to suit your interior. Pair your track with a pull handle for easy operation and a flush pull on the wall-facing side for clearance. Manufactured by Handle House, supplied and installed by Edina Doors.
+      We supply and install Handle House barn door tracks, pull handles and flush pulls. A pull handle operates the door, while a flush pull on the wall-facing side allows clearance as it slides along the wall.
   - type: markdown
     content: |
-      Barn door track hardware is available in face-mount and top-mount styles, with rollers fixed to the front or top edge of the door. Choose from matt black, brushed stainless steel, antique bronze, satin gold and matt white finishes. Supplied and installed by Edina Doors.
+      Face-mount tracks have rollers fixed to the front of the door; top-mount tracks have rollers fixed to its top edge. Finishes include matt black, brushed stainless steel, antique bronze, satin gold and matt white.
   - type: gallery
     aspect_ratio: "1/1"
     items:
@@ -61,13 +65,8 @@ blocks:
   - type: markdown
     content: |
       We exclusively use Handle House hardware and can install any option from their wide selection of handles and door hardware. See the [barn doors](/barn-doors/) range for the doors these tracks carry, or explore the rest of our [door hardware](/door-hardware/).
-  - type: cta
-    content: |
-      ## Match the track to the door and wall
 
-      Tell us the door size, the wall surface and the clearance available. We’ll confirm a face-mount or top-mount track and the handle set.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      Include the door size, wall surface and available clearance so we can confirm a face-mount or top-mount track and the handle set.
+  - type: snippet
+    reference: contact-form
 ---

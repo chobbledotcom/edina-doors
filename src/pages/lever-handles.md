@@ -10,11 +10,15 @@ eleventyNavigation:
   parent: Door Hardware
   order: 2
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/handle-macro.jpg
+    image_alt: Generated illustration of a door lever
+    tint: true
+    class: category-hero
+    content: |
       # Lever Handles
 
-      Lever handles operate the door latch for easy opening and closing. Available in various colours and finishes, with passage, privacy, fixed dummy and keyed entry configurations depending on the model. Edina exclusively supplies and installs Handle House handles. We showcase selected styles here — visit [Handle House](https://handlehouse.com.au) for the full range.
+      We exclusively supply and install Handle House handles. Levers operate the door latch, with passage, privacy, fixed dummy and keyed entry configurations depending on the model. Colours and finishes also vary by model. For more styles, see the full [Handle House](https://handlehouse.com.au) range.
   - type: gallery
     aspect_ratio: "1/1"
     items:
@@ -39,13 +43,6 @@ blocks:
       ## Pairing levers with locks
 
       Levers can be paired with a [Vault smart lock](/smart-locks/), a [deadbolt](/deadbolts/) or a separate lock, depending on the door and how it is used. We’ll confirm the configuration and finish during your site measure so the handle, lock and door work together.
-  - type: cta
-    content: |
-      ## Choose a lever and finish
-
-      Send us the lever code or a photo of the style you like, along with the door it is for. We’ll confirm availability, function and finish options.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

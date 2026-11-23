@@ -3,8 +3,8 @@
  *
  * These collections don't follow the standard "item" layout (title, subtitle,
  * thumbnail, body, meta). Instead each one has a bespoke field list — e.g.
- * `pages` carries layout and navigation fields, `snippets` is just name +
- * body.
+ * `pages` carries layout and navigation fields, while `snippets` supports
+ * Markdown body content and reusable blocks.
  */
 
 import { blocksFieldFor } from "#scripts/customise-cms/blocks.js";
@@ -61,5 +61,9 @@ export const getCollectionFieldBuilders = (config) => ({
       { name: "icon", type: "image", label: "Icon" },
     ]),
 
-  snippets: () => [COMMON_FIELDS.name, createMarkdownField("body", "Body")],
+  snippets: () => [
+    COMMON_FIELDS.name,
+    createMarkdownField("body", "Body"),
+    blocksFieldFor("snippets"),
+  ],
 });

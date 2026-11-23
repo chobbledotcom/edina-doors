@@ -8,16 +8,20 @@ eleventyNavigation:
   parent: Door Hardware
   order: 1
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/smart-lock-macro.jpg
+    image_alt: Generated illustration of a smart door lock
+    tint: true
+    class: category-hero
+    content: |
       # Vault Smart Locks
 
-      Vault is the only smart lock brand we supply and install. Our selected range offers deadbolt, lever and push–pull options to suit different doors and preferences.
+      We supply and install Vault smart deadbolts, levers and push–pull locks on new doors and suitable existing doors. Vault is the only smart lock brand we install.
   - type: markdown
     content: |
-      ## Why choose a smart lock?
+      ## Access methods and remote operation
 
-      A smart lock makes everyday access simpler. Unlock using your fingerprint, a PIN or your phone, and give family, guests or trades their own access without cutting extra keys. Remote access is also available with built-in Wi-Fi or an optional gateway, depending on the model.
+      Depending on the model, you can unlock with your fingerprint, a PIN or your phone, and give family, guests or trades separate access without cutting extra keys. Remote access requires built-in Wi-Fi or an optional gateway.
   - type: split-image
     subtitle: Smart deadbolt
     content: |
@@ -25,7 +29,7 @@ blocks:
 
       Supplied and installed by Edina Doors.
 
-      The Vault Nexus combines keyless entry with a compact deadbolt design, allowing you to pair smart locking with a separate lever or pull handle to suit your entrance. With facial recognition and several other access methods, it offers convenient everyday entry for family and guests.
+      The Nexus is a compact smart deadbolt with facial recognition. It pairs with a separate lever or pull handle.
 
       **Key features**
 
@@ -47,9 +51,9 @@ blocks:
 
       Supplied and installed by Edina Doors.
 
-      The Vault Prime combines a slimline lever design with straightforward keyless entry. A fingerprint reader integrated into the handle, along with PIN, card and phone access, makes it a practical option for everyday use.
+      The Prime has a slimline lever with a fingerprint reader built into the handle, plus PIN, card and phone access.
 
-      Available in black, silver and gold to complement your door and surrounding hardware.
+      Available in black, silver and gold.
 
       **Key features**
 
@@ -86,9 +90,7 @@ blocks:
 
       Supplied and installed by Edina Doors.
 
-      The Vault Guardian brings smart access and an integrated handle together in one contemporary design. Facial recognition allows convenient hands-free authentication, while fingerprint, PIN and app access give you flexibility in how you enter and manage access to your home.
-
-      A practical choice for customers who prefer the familiar operation of a handle with the convenience of keyless entry.
+      The Guardian has an integrated handle and supports hands-free authentication through facial recognition. You can also use fingerprint, PIN or app access to enter and manage access to your home.
 
       **Key features**
 
@@ -104,15 +106,13 @@ blocks:
     figure_alt: Vault Guardian smart lever in black
   - type: split-image
     reverse: true
-    subtitle: Premium push–pull smart lock
+    subtitle: Push–pull smart lock
     content: |
       ## Vault Fortress Vision
 
       Supplied and installed by Edina Doors.
 
-      The Vault Fortress Vision combines a modern push–pull design with facial recognition and integrated video intercom features. Its built-in camera and indoor display let you see visitors, while two-way communication and remote app access help you manage your entrance from home or away.
-
-      An option for customers wanting smart locking and visitor communication in one unit.
+      The Fortress Vision combines push–pull operation, facial recognition and a video intercom. Its camera and indoor display let you see visitors, with two-way communication and remote app access for use at home or away.
 
       **Key features**
 
@@ -130,20 +130,15 @@ blocks:
     figure_alt: Vault Fortress Vision push-pull smart lock in black
   - type: markdown
     content: |
-      ## Smart locks to suit your project
+      ## Installation and compatibility
 
       Edina Doors supplies and installs Vault smart locks as an upgrade to suitable existing doors, as part of a new entry door package, or alongside a complete internal door fit-out and entry door package.
 
-      The models shown above are Edina’s selected range, offering various styles and features to suit most applications. Vault also offers additional smart lock options, which we can source where a different solution is required.
+      We can also source other Vault models if you need different features.
 
       All installations are subject to product suitability and compatibility with your door, frame and hardware. Pair a smart lock with a [timber](/timber-entry-doors/) or [aluminium](/aluminium-entry-doors/) entry door, or upgrade a suitable existing door.
-  - type: cta
-    content: |
-      ## Choose the lock around the door
 
-      Tell us about the door, how you use the entrance and whether you want remote access. We’ll recommend a Vault model and confirm compatibility.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      Tell us how you use the entrance and whether you want remote access so we can recommend a Vault model and confirm compatibility.
+  - type: snippet
+    reference: contact-form
 ---

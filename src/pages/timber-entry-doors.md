@@ -10,13 +10,17 @@ eleventyNavigation:
   parent: Doors
   order: 1
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # Solid Timber Doors
 
-      Explore Edina’s selected solid timber front door range, manufactured by Door City and supplied and installed by Edina Doors.
+      We supply and install solid timber front doors manufactured by Door City.
 
-      Have another style in mind? We can also source and install doors from other Australian suppliers and manufacturers, including Crown, Hume and Corinthian.
+      We can also source and install other styles from Australian suppliers and manufacturers, including Crown, Hume and Corinthian.
   - type: gallery
     masonry: true
     items:
@@ -65,13 +69,6 @@ blocks:
     name: Quoting a timber door
     content: |
       Quote the door code (for example, DC-07) along with your preferred configuration code. We’ll confirm dimensions, glazing and finishing during your site measure.
-  - type: cta
-    content: |
-      ## Find the right timber door for your entrance
-
-      Send us the codes you like, or a photo of the style you have in mind. We’ll confirm sizes, glazing and hardware and prepare an initial quote.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

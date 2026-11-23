@@ -38,8 +38,7 @@ verified new testimony from Michael.
   coverage, customer quotes or star ratings. Replace draft briefs with real
   customer-approved photographs and job details before making them indexable.
 - `src/images/people/` contains a fictional generated adult carpenter and family.
-  They are **not Michael or his family**. Visible captions and
-  `/image-transparency/` disclose this. Replace with consented real photographs.
+  They are **not Michael or his family**. Replace with consented real photographs.
 - `src/images/editorial/` contains AI-generated material studies, made using
   existing pull-handle, lever and hinge photographs as visual references.
   They are atmospheric artwork, not accurate catalogue or installation evidence.
@@ -50,6 +49,11 @@ The visual layer uses native cross-document view transitions with reduced-motion
 support, translucent navigation, and decorative SVG architectural linework.
 No JavaScript transition framework is required.
 
+Copy uses plain Australian English and specific product or installation facts.
+The DB/USB page-grading rules and shared AI-trope catalogue in `../bcn-tools/`
+guided the copy review. Keep draft labels brief, group author questions under
+“Notes for Michael”, and avoid slogans or claims about the quality of the writing.
+
 ## Before public launch
 
 Confirm business/legal identity, advertised licence details, phone number, actual
@@ -58,11 +62,14 @@ consent and project evidence. Check all draft disclosures before removing them.
 Useful source-backed advice can be published without pretending draft projects
 or unverified credentials are real.
 
-The contact form currently has no configured destination. Email links work; the
-form intentionally shows an unconfigured notice instead of silently discarding
-submissions. Set `formspark_id` or `contact_form_target` in
-`src/_data/config.json`, or supply the `FORMSPARK_ID` deployment secret, then test
-an actual submission. The privacy page must match the chosen external provider.
+The shared enquiry form is `src/snippets/contact-form.md`. Service, range,
+advice and project pages reference it, so field and copy changes are made once.
+The deploy workflow injects the repository’s `FORMSPARK_ID` secret. Local builds
+without a destination show an email fallback; do not commit the deployment ID.
+Verify an actual submission after deployment.
+
+PagesCMS exposes both Markdown bodies and reusable blocks for snippets, plus
+the parent key needed to edit nested navigation.
 
 ## Deployment
 

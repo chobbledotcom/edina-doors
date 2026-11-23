@@ -1,7 +1,7 @@
 ---
 name: Door Advice
 meta_title: Questions to Ask Before Replacing a Door | Edina Doors
-meta_description: Start with the right questions about existing frames, timber and aluminium entrances, exposure and smart-lock compatibility before requesting a door quote.
+meta_description: Check whether the frame can stay, compare timber and aluminium entry packages, and plan smart-lock access before asking Edina for a door quote.
 permalink: /door-advice/
 eleventyNavigation:
   key: Advice
@@ -9,42 +9,44 @@ eleventyNavigation:
 blocks:
   - type: section-header
     intro: |
-      # Better questions. A better-fitting brief.
+      # Before you replace a door
 
-      You do not need a finished specification to make an enquiry. Start with the opening you have, the way you use it and the decisions that still need a carpenter’s input.
+      You can make an enquiry with photos, approximate measurements and a preferred style. Tell Edina what you want to change and what you hope to keep; the site measure checks the opening and installation requirements.
 
-      These reading notes distinguish Edina’s existing service facts from questions still awaiting Michael’s site-specific guidance. The individual editorial drafts are labelled and excluded from search indexing until that review is complete.
+      **Draft advice — awaiting Michael’s review.** The guides cover frame reuse, entrance materials and smart-lock selection.
   - type: features
     intro_content: |
       ## What are you trying to work out?
     items:
       - icon: hugeicons:ruler
         name: Can the existing frame stay?
-        description: "Timber and internal doors may use suitable existing frames; aluminium packages require a new frame. [Read the existing-frame questions](/door-advice/existing-frames/)."
+        description: "Timber and internal doors may use suitable existing frames; aluminium packages require a new frame. [Read about existing frames](/door-advice/existing-frames/)."
       - icon: hugeicons:house-01
         name: Timber or aluminium at this entrance?
-        description: "Compare the actual package and finishing requirements, then ask about exposure rather than assuming one material suits every opening. [Read the material and exposure questions](/door-advice/timber-aluminium-exposure/)."
+        description: "Timber needs sealing and finishing by others. Aluminium comes as a complete new entry set. [Compare the packages and exposure questions](/door-advice/timber-aluminium-exposure/)."
       - icon: hugeicons:key-01
         name: What should a smart lock do for you?
-        description: "Separate door compatibility, everyday access, power and remote functions before choosing a model. [Read the smart-lock questions](/door-advice/smart-lock-considerations/)."
+        description: "Check door compatibility, access methods, power and remote functions for the selected model. [Read the smart-lock advice](/door-advice/smart-lock-considerations/)."
   - type: split-image
     reverse: true
     content: |
-      ## Begin with a photograph, not a guess
+      ## What to send with your enquiry
 
-      Edina’s [initial quote process](/process/) starts with your ideas, photos, approximate measurements and preferred styles. A site visit then confirms the opening, existing frames and installation requirements before the scope is finalised.
+      Include photos of the door and opening, approximate height and width, your preferred style and your suburb. Say whether you want to keep the existing frame or security screen.
 
-      The [service page](/what-we-do/) is equally useful for its exclusions: Edina supplies the products it installs, uses new hardware, and does not paint, stain or seal the timber components.
+      Edina supplies the products it installs and uses new hardware. Painting, staining and sealing timber components must be arranged separately. Check the [service inclusions and exclusions](/what-we-do/) when planning other work around the opening.
 
-      [Browse the door ranges](/doors/) when you are ready to put a style beside the questions.
+      [Browse the door ranges](/doors/) to choose styles for your initial quote.
     figure_src: editorial/workshop-detail.jpg
     figure_alt: AI-generated illustrative timber workshop material study
     figure_caption: AI-generated material study — not Edina’s workshop or evidence of actual workmanship.
   - type: markdown
     content: |
-      ## No invented averages
+      ## Quotes and timing
 
-      These pages do not supply guessed prices, installation times or promises about what will fit. Manufacturing and delivery lead times vary; scope, final price and installation arrangements are confirmed through the [nine-step process](/process/).
+      Manufacturing and delivery lead times vary. Scope, final price and installation arrangements are confirmed through the [nine-step process](/process/).
 
-      [Ask Michael about your own doorway](/contact/) and include your suburb so the location can be checked too.
+      [Ask Michael about your doorway](/contact/) and include your suburb so the location can be checked.
+  - type: snippet
+    reference: contact-form
 ---

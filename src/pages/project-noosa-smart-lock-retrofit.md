@@ -1,61 +1,61 @@
 ---
-name: Noosa Smart-lock Retrofit — Illustrative Brief
-meta_title: Noosa Smart-lock Retrofit — Illustrative Brief | Edina Doors
-meta_description: A clearly labelled fictional brief about smart-lock compatibility, access needs and handover. Not evidence of a Noosa installation or service coverage.
+name: Noosa Smart-lock Retrofit — Sample Brief
+meta_title: Noosa Smart-lock Retrofit — Sample Brief | Edina Doors
+meta_description: A sample existing-door brief covering Vault smart-lock compatibility, access methods, power and handover. Not a completed Edina job or confirmed service coverage.
 permalink: /projects/noosa-smart-lock-retrofit/
 no_index: true
 blocks:
   - type: section-header
     intro: |
-      # Noosa smart-lock retrofit: an illustrative brief
+      # Noosa smart-lock retrofit: sample brief
 
-      **Draft / illustration only.** This is not a completed Noosa installation or a customer story. Noosa is a service-area candidate, not confirmed coverage.
+      **Sample brief — not a completed Edina job.** Noosa is a fictional scenario location, not confirmed service coverage.
 
-      This brief begins with an existing door and an everyday access question: which lock, if any, is compatible with the opening and the way the household wants to use it?
+      To add a smart lock to an existing door, first check the door, frame and hardware. Then compare the access methods and remote functions the household needs.
   - type: split-image
     content: |
-      ## Compatibility before connectivity
+      ## Check the existing door and lock requirements
 
       Edina exclusively supplies and installs Vault smart locks. Existing-door upgrades are subject to assessment of the door, frame and hardware; not every model or opening is suitable.
 
-      A real brief would record the existing door and hardware, the desired access methods and whether remote access is needed. Model-specific requirements matter: for example, Edina’s selected Vault Prime information states that it is not suitable for fire-rated doors.
+      Record the existing door and hardware, the preferred access methods and any need for remote access. Requirements differ by model: the selected Vault Prime information, for example, states that it is not suitable for fire-rated doors.
 
       [Explore the selected Vault range](/smart-locks/).
     figure_src: people/michael-on-site.jpg
-    figure_alt: AI-generated fictional carpenter staging a door fitting demonstration, not Michael Dunn
-    figure_caption: Staged fictional AI-generated demonstration — not Michael, not a Noosa job, and not before-and-after evidence.
+    figure_alt: AI-generated fictional carpenter demonstrating a door fitting, not Michael Dunn
+    figure_caption: AI-generated fictional demonstration — not Michael or a completed Noosa installation.
   - type: markdown
     content: |
-      ## What a real handover should establish
+      ## Setup and handover
 
-      The existing service description includes fitting, setup and a demonstration of the lock’s features and everyday operation. A project story should record what was actually demonstrated, not just show an attractive handle.
+      Edina’s service includes fitting, setup and a demonstration of the lock’s features and everyday operation. Before choosing a model, discuss:
 
-      - Which access methods were selected for the household?
-      - Does this model require an optional gateway for the requested remote functions?
-      - What power source, charging or battery routine does the selected model use?
-      - Which backup method is supported, and how was its use explained?
-      - Which manufacturer instructions were provided?
+      - Which access methods the household wants to use.
+      - Whether an optional gateway is needed for the requested remote functions.
+      - The selected model’s power source, charging or battery routine.
+      - The supported backup method and how to use it.
+      - The manufacturer instructions to be supplied at handover.
 
-      No model, Wi-Fi performance, installation duration or security outcome is promised by this draft.
-
-      ## Not an electrical or emergency service
+      ## Work excluded from the installation
 
       **Electrical and security wiring:** hardwired access control, alarms or electrical connections.
 
       **Standalone repairs:** general lock repairs, emergency locksmith work or repairs to doors outside an Edina installation.
 
-      Those items remain outside Edina’s stated service scope. Read all [service exclusions](/what-we-do/) before requesting a package.
+      Read the complete [service exclusions](/what-we-do/).
   - type: faqs
     intro_content: |
-      ## Questions for Michael before publishing a real example
+      ## Notes for Michael
     items:
-      - question: What made the real door suitable for the selected lock?
-        answer: Add the actual compatibility assessment, selected model and installation scope. A fictional demonstration cannot establish suitability for another home.
-      - question: What did the customer need to learn at handover?
-        answer: Record the real demonstration and manufacturer guidance. Do not publish customer PINs, access codes, key locations or identifying app screenshots.
-      - question: What evidence would replace this image?
-        answer: Permission-cleared photographs of the actual installation, with a factual account from Michael. They must not reveal private access details or be presented as a security guarantee.
+      - question: Which door and hardware details are needed to assess a retrofit?
+        answer: Specify the photographs and site checks needed before recommending a model, and how you record any changes to the installation scope.
+      - question: What do you demonstrate when handing over a smart lock?
+        answer: Explain the model-specific access, power and backup tasks you cover, and which manufacturer instructions the customer receives.
+      - question: What can be shown in a completed installation example?
+        answer: Supply customer-approved photographs and your account of the compatibility checks and selected model. Keep PINs, access codes, key locations and private app screenshots out of the images.
   - type: markdown
     content: |
-      [Back to illustrative projects](/projects/) · [Smart-lock questions to ask](/door-advice/smart-lock-considerations/) · [Discuss your existing door](/contact/)
+      [Back to sample briefs](/projects/) · [Smart-lock questions to ask](/door-advice/smart-lock-considerations/) · [Ask about your existing door](/contact/)
+  - type: snippet
+    reference: contact-form
 ---

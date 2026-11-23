@@ -7,15 +7,19 @@ eleventyNavigation:
   key: Doors
   order: 2
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/brass-macro.jpg
+    image_alt: Generated illustration of brass door hardware
+    tint: true
+    class: category-hero
+    content: |
       # Doors, frames and glazing
 
-      Edina brings door selection, supply and installation together. Explore the selected ranges below, or tell us what you have in mind and we can source other styles from Australian suppliers and manufacturers.
+      We supply and install timber and aluminium entry doors, internal doors and barn doors. We can also source other styles from Australian suppliers and manufacturers.
   - type: image-cards
     image_aspect_ratio: "4/5"
     intro_content: |
-      ## Explore the door ranges
+      ## Door ranges
     items:
       - image: home/range-timber.png
         name: Timber entry doors
@@ -44,13 +48,6 @@ blocks:
       Solid timber doors can be fitted into suitable existing frames, or supplied and installed as a complete door package including the frame, hardware and glazing where required. Aluminium entrance doors are available only as complete new door sets, including a new frame.
 
       Sidelights can be tailored to suit your entrance with clear, Translam or grey-tinted glass. For ventilation, we can incorporate Breezway louvre cassettes, with metal mesh security screens available as an additional option.
-  - type: cta
-    content: |
-      ## Not sure which door suits your opening?
-
-      Send a few photos and approximate measurements. We’ll talk through the options and prepare an initial quote, subject to a site measure.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

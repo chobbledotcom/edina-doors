@@ -10,11 +10,15 @@ eleventyNavigation:
   parent: Door Hardware
   order: 5
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/cavity-pull-macro.jpg
+    image_alt: Generated illustration of a cavity slider pull
+    tint: true
+    class: category-hero
+    content: |
       # Cavity Slider Hardware
 
-      Cavity slider hardware sits flush with the face of the door, allowing it to slide neatly into the wall pocket. Choose a style and finish to complement your internal doors and surrounding hardware.
+      Cavity slider hardware sits flush with the door face so the door can slide into a wall pocket. Passage and privacy sets, edge pulls and cavity locks are available in styles and finishes to match your internal door hardware.
   - type: markdown
     content: |
       ## Hardware options
@@ -48,13 +52,8 @@ blocks:
   - type: markdown
     content: |
       Hardware is selected to suit the door thickness, cavity clearance and required function. Available as part of an [Edina internal door package](/internal-doors/) or an upgrade to suitable existing doors.
-  - type: cta
-    content: |
-      ## Plan the pocket and the hardware together
 
-      Tell us the door size, the wall pocket and how the room is used. We’ll confirm the flush pull, privacy set or edge pull that suits.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      Include the door size, cavity clearance and whether you need a lock so we can confirm the flush pull, privacy set or edge pull for your door.
+  - type: snippet
+    reference: contact-form
 ---

@@ -1,46 +1,46 @@
 ---
-name: Maroochydore Internal Fit-out — Illustrative Brief
-meta_title: Maroochydore Fit-out — Illustrative Brief | Edina Doors
-meta_description: An illustrative room-by-room door and finishing-carpentry brief. No completed Maroochydore project, customer or verified local service coverage is claimed.
+name: Maroochydore Internal Fit-out — Sample Brief
+meta_title: Maroochydore Internal Fit-out — Sample Brief | Edina Doors
+meta_description: A sample room-by-room brief for internal doors, frames, new hardware and finishing carpentry. Not a completed Edina job or confirmed service coverage.
 permalink: /projects/maroochydore-internal-fit-out/
 no_index: true
 blocks:
   - type: section-header
     intro: |
-      # Maroochydore internal fit-out: an illustrative brief
+      # Maroochydore internal fit-out: sample brief
 
-      **Draft / illustration only.** This is a planning scenario, not a completed Edina job. No Maroochydore customer, property or service coverage is being claimed.
+      **Sample brief — not a completed Edina job.** Maroochydore is a fictional scenario location, not confirmed service coverage.
 
-      Unlike a single front-door replacement, an interior fit-out needs a coordinated room-by-room schedule: which doors, which frames, which handles and which surrounding trims belong in the package?
+      An internal fit-out starts with a room-by-room schedule of doors, frames, handles and trims. It separates the openings that may keep their frames from those needing a complete new set.
   - type: split-image
     reverse: true
     content: |
-      ## Start with a door schedule, not a finish alone
+      ## List the doors and finishing carpentry
 
-      The existing Edina range includes Hume and Corinthian internal doors, with hollow-core and shaker options. Internal doors may be retrofitted into existing frames or supplied as part of a complete fit-out with new doors, frames and hardware.
+      Edina supplies Hume and Corinthian internal doors, with hollow-core and shaker options. Internal doors may be fitted into suitable existing frames or supplied in a complete fit-out with new doors, frames and hardware.
 
-      Edina also offers finishing carpentry including skirting, architraves, mouldings, trims, window reveals, sills and wall panelling. A real quote must identify which of those items is actually included.
+      Finishing carpentry includes skirting, architraves, mouldings, trims, window reveals, sills and wall panelling. List the items needed for each room so they can be included in the quote.
 
       [Explore internal doors](/internal-doors/) and [lever handles](/lever-handles/).
     figure_src: home/range-internal.png
     figure_alt: Illustrative interior doorway, not a completed Maroochydore fit-out
-    figure_caption: Illustrative interior image — no real customer property or completed Edina fit-out is shown.
+    figure_caption: Illustrative interior image — not a completed Edina fit-out.
   - type: markdown
     content: |
-      ## A useful schedule for a real enquiry
+      ## Prepare a room-by-room schedule
 
-      | Record for each room | Why it belongs in the brief |
+      | Record for each room | What it helps confirm |
       | --- | --- |
-      | Door location and approximate size | Identifies the opening to be checked at the site measure. |
-      | Retain or replace the frame | Keeps a door-only replacement distinct from a new door set. |
-      | Preferred door style and code | Gives the quote a specific selection to confirm. |
-      | Handle style, finish and privacy requirements | Makes the hardware selection room-specific. |
-      | Trims and finishing-carpentry items | Prevents an interior concept from implying an unlimited scope. |
-      | Finishing arranged by others | Makes responsibility for paint, stain or sealer explicit. |
+      | Door location and approximate size | The opening to check at the site measure. |
+      | Whether you hope to retain the frame | A door-only replacement or a new door set. |
+      | Preferred door style and code | The product to quote. |
+      | Handle style, finish and privacy requirements | The hardware for that room. |
+      | Trims and finishing-carpentry items | The surrounding work to include. |
+      | Who will arrange finishing | Responsibility for paint, stain or sealer. |
 
       Approximate measurements begin the conversation; they are not an order or a replacement for the site measure.
 
-      ## Keep the package honest
+      ## Materials, hardware and finishing
 
       **Installation of products supplied by others:** we supply the doors, hardware and materials we install.
 
@@ -48,18 +48,20 @@ blocks:
 
       **Painting, staining or sealing:** doors and timber components require finishing by others.
 
-      Read the complete [service inclusions and exclusions](/what-we-do/). No room count, programme, acoustic rating, cost or completion date has been invented for this brief.
+      Read the complete [service inclusions and exclusions](/what-we-do/).
   - type: faqs
     intro_content: |
-      ## Questions for Michael and a future customer
+      ## Notes for Michael
     items:
-      - question: Which rooms and finishing items were actually in the agreed scope?
-        answer: Replace this question with the real door schedule and agreed inclusions. A broad fit-out description must not stand in for a documented package.
-      - question: What did retaining existing frames change about the job?
-        answer: Add the actual assessment and decisions. Do not assume that every frame in a home will be suitable.
-      - question: How was the work coordinated with other trades?
-        answer: Michael’s real sequence, access requirements and finishing arrangements are needed. This draft makes no promise about installation duration or disruption.
+      - question: What should a multi-room door schedule include?
+        answer: Add an example showing how you record room names, door selections, privacy hardware and finishing-carpentry quantities.
+      - question: How do you handle a mix of retained and new frames?
+        answer: Explain how each opening is assessed and how the resulting choices are recorded in the quote.
+      - question: How is the fit-out coordinated with other trades?
+        answer: Describe the access, installation sequence and finishing arrangements to agree. For a completed project, provide the actual room count, door schedule, agreed scope and customer-approved photographs.
   - type: markdown
     content: |
-      [Back to illustrative projects](/projects/) · [Read the nine-step process](/process/) · [Start your own room-by-room enquiry](/contact/)
+      [Back to sample briefs](/projects/) · [Read the nine-step process](/process/) · [Ask about your room-by-room fit-out](/contact/)
+  - type: snippet
+    reference: contact-form
 ---

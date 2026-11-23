@@ -17,7 +17,7 @@ blocks:
       Edina Doors provides door supply and installation, alongside finishing carpentry, for homeowners and builders across the Sunshine Coast. From individual replacements to complete fit-outs, our work includes:
   - type: markdown
     content: |
-      ## Edina Does
+      ## Work we take on
 
       ### Door supply & installation
 
@@ -35,7 +35,7 @@ blocks:
 
       New doors fitted to suitable existing frames, with new hinges, handles and locks. A practical option for updating doors without replacing the entire door set. This applies to our [timber](/timber-entry-doors/) and [internal](/internal-doors/) ranges, not to aluminium entrance doors.
 
-      ### Custom door & frame solutions
+      ### Custom door sizes & frame configurations
 
       Door and frame combinations for openings that need something beyond a standard replacement, including custom sizes, configurations, sidelights and overhead glazing. Start with the [frame configurations](/entry-door-frame-configurations/).
 
@@ -57,9 +57,9 @@ blocks:
   - type: callout
     variant: warning
     icon: hugeicons:information-circle
-    name: Edina Doesn’t
+    name: Work we don’t take on
     content: |
-      To keep the scope clear from the outset, our services do not include:
+      Our services do not include:
 
       - **Painting, staining or sealing:** doors and timber components require finishing by others.
       - **Installation of products supplied by others:** we supply the doors, hardware and materials we install.
@@ -71,13 +71,6 @@ blocks:
       - **Electrical and security wiring:** hardwired access control, alarms or electrical connections.
       - **Aluminium door retrofits:** aluminium entrance doors are supplied only as complete door-and-frame packages.
       - **Standalone repairs:** general lock repairs, emergency locksmith work or repairs to doors outside an Edina installation.
-  - type: cta
-    content: |
-      ## Tell us what the job needs
-
-      Whether it is one door or a whole-home fix-out, send the details and photos. We’ll confirm what is included and what needs to be arranged separately.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

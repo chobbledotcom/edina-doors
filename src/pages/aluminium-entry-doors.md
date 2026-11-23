@@ -10,11 +10,15 @@ eleventyNavigation:
   parent: Doors
   order: 2
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/aluminium-macro.jpg
+    image_alt: Generated illustration of an aluminium door detail
+    tint: true
+    class: category-hero
+    content: |
       # Aluminium Entrance Doors
 
-      Manufactured by Parkwood. Supplied and installed by Edina Doors.
+      We supply and install aluminium entrance doors manufactured by Parkwood.
 
       Available only as a complete new entry door set, including a new frame. We do not retrofit aluminium doors into existing frames.
   - type: gallery
@@ -63,13 +67,6 @@ blocks:
     name: Complete door sets only
     content: |
       Aluminium entrance doors are supplied only as complete door-and-frame packages. We do not retrofit an aluminium door into an existing frame.
-  - type: cta
-    content: |
-      ## Start with a style and a colour
-
-      Send us the door code and powder-coat colour you prefer, along with a photo of your entrance. We’ll confirm the size and configuration and prepare an initial quote.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

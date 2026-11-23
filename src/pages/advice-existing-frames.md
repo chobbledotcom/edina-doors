@@ -1,7 +1,7 @@
 ---
 name: Can a New Door Use an Existing Frame?
 meta_title: Can a New Door Use an Existing Frame? | Edina Doors
-meta_description: What Edina’s service information confirms about retaining frames, plus the assessment questions Michael needs to answer for your specific opening.
+meta_description: Timber and internal doors can use suitable existing frames; aluminium requires a new entry set. Check hardware, screens and site-measure requirements.
 permalink: /door-advice/existing-frames/
 no_index: true
 blocks:
@@ -9,15 +9,15 @@ blocks:
     intro: |
       # Can a new door go in the existing frame?
 
-      **Editorial draft — Michael’s assessment guidance is still needed.** The service facts below come from Edina’s existing range and process pages. They are not a remote assessment of your frame or a promise that a replacement will fit.
+      Edina can fit timber and internal doors into suitable existing frames. Aluminium entrance doors are supplied only as complete door-and-frame packages. The frame is assessed at the site measure.
 
-      The short answer is: Edina fits timber and internal doors into suitable existing frames. Aluminium entrance doors are different: they are supplied only as complete door-and-frame packages.
+      **Draft advice — awaiting Michael’s review.**
   - type: faqs
     intro_content: |
-      ## What the existing service information confirms
+      ## Frames, hardware and the site measure
     items:
       - question: Which door ranges can use a suitable existing frame?
-        answer: "Edina’s [timber entry doors](/timber-entry-doors/) and [internal doors](/internal-doors/) can be fitted into suitable existing frames. Both can also form part of a new package with frames and hardware. Suitability is confirmed at the site measure, not from the style code alone."
+        answer: "Edina’s [timber entry doors](/timber-entry-doors/) and [internal doors](/internal-doors/) can use suitable existing frames. Both can also be supplied with new frames and hardware. A style code alone does not confirm whether a door will suit your frame."
       - question: Can an aluminium entrance door be put into my old frame?
         answer: "No. **Aluminium door retrofits:** aluminium entrance doors are supplied only as complete door-and-frame packages. See the [aluminium range](/aluminium-entry-doors/)."
       - question: Can the existing locks and handles stay?
@@ -34,14 +34,14 @@ blocks:
 
       If a security screen or surrounding finish must remain, mention it early. The [complete exclusions](/what-we-do/) also cover structural alterations, brickwork, rendering and tiling, so a door replacement is not an agreement to change the building opening or make good every surrounding surface.
 
-      ## Michael’s input before this guide is finished
+      ## Notes for Michael
 
       - What do you inspect before deciding an existing frame can stay?
-      - Which visible warning signs should a homeowner photograph, without trying to diagnose the frame themselves?
-      - What can be established from photos, and what always needs a visit?
+      - Which visible warning signs should a homeowner photograph?
+      - What can be established from photos, and what needs a visit?
       - How do you explain a change from a door-only quote to a new frame package?
 
-      This draft intentionally gives no tolerance, repair method, price or time allowance. Those details need Michael’s own guidance and the actual site conditions.
-
-      [Back to door advice](/door-advice/) · [See an illustrative timber brief](/projects/buderim-timber-entry/) · [Ask about your frame](/contact/)
+      [Back to door advice](/door-advice/) · [Read the sample timber brief](/projects/buderim-timber-entry/) · [Ask about your frame](/contact/)
+  - type: snippet
+    reference: contact-form
 ---

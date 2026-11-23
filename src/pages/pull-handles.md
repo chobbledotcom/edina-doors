@@ -8,16 +8,20 @@ eleventyNavigation:
   parent: Door Hardware
   order: 3
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/brass-macro.jpg
+    image_alt: Generated illustration of brass door hardware
+    tint: true
+    class: category-hero
+    content: |
       # Entrance Pull Handles
 
-      Handle House entrance pull handles are available in a range of designs, sizes and finishes, including timber and custom options, with selected models up to 1800 mm long. We showcase a selection for the Edina range but can supply and install your preferred handle from the wider collection.
+      We supply and install Handle House entrance pull handles, including timber and custom options. Selected models are up to 1800 mm long. You can choose from these models or ask us about a handle from their wider collection.
   - type: markdown
     content: |
-      ## E35 — bold square profile
+      ## E35 — square profile
 
-      The E35 entrance pull handle features a bold, square profile for a clean, contemporary look. Available in brushed stainless steel, textured matt black and satin white. Available in overall lengths of 300 mm, 450 mm, 600 mm, 1200 mm and 1800 mm. Supplied and installed by Edina Doors.
+      The E35 has a square profile in brushed stainless steel, textured matt black or satin white. Overall lengths are 300 mm, 450 mm, 600 mm, 1200 mm and 1800 mm. Supplied and installed by Edina Doors.
   - type: gallery
     aspect_ratio: "1/1"
     items:
@@ -31,7 +35,7 @@ blocks:
     content: |
       ## E34 — round bar with extended ends
 
-      The E34 entrance pull handle features a clean, round bar profile with extended ends for a contemporary look. Available in brushed stainless steel, textured matt black and satin white. Available in overall lengths of 300 mm, 450 mm, 600 mm, 1200 mm and 1800 mm. Supplied and installed by Edina Doors.
+      The E34 has a round bar with extended ends, in brushed stainless steel, textured matt black or satin white. Overall lengths are 300 mm, 450 mm, 600 mm, 1200 mm and 1800 mm. Supplied and installed by Edina Doors.
   - type: gallery
     aspect_ratio: "1/1"
     items:
@@ -69,13 +73,9 @@ blocks:
         caption: E3 — American oak with matt black ends
       - image: hardware/pull-handles/pull-timber-stainless.webp
         caption: Timber pull handle with brushed stainless steel ends
-  - type: cta
+  - type: markdown
     content: |
-      ## Handle length and door material
-
-      Tell us the door type and the look you want. We’ll confirm a pull handle style, length and finish that suits the entrance.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      When choosing a pull handle, include your preferred length and finish and the type of door it is for. We’ll confirm which options fit.
+  - type: snippet
+    reference: contact-form
 ---

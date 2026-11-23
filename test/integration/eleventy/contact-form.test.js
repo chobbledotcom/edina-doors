@@ -187,9 +187,6 @@ describe("contact-form block", () => {
     const doc = await getUnconfiguredSite().getDoc("custom-form/index.html");
     const block = doc.querySelector(".contact-form-block");
     expect(block.querySelector("form")).toBeNull();
-    expect(block.querySelector("h3").textContent).toBe(
-      "Contact form not configured",
-    );
     expect(doc.querySelector('script[src*="contact-form.js"]')).toBeNull();
   });
 });

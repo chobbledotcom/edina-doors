@@ -11,6 +11,8 @@
 
 export interface PagesCMSEleventyNavigation {
   key?: string;
+  /** Parent navigation key */
+  parent?: string;
   order?: number;
   url?: string;
 }

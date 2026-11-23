@@ -1,7 +1,7 @@
 ---
-name: Service Areas — Draft
-meta_title: Service-area Confirmation Draft | Edina Doors
-meta_description: Sunshine Coast service-area planning with town candidates awaiting Michael’s confirmation. This draft does not promise coverage, travel terms or availability.
+name: Service Areas - Draft
+meta_title: Sunshine Coast Service Areas - Draft | Edina Doors
+meta_description: Enquire about door supply and installation on the Sunshine Coast. Individual towns and travel arrangements still need confirmation.
 permalink: /service-areas/
 no_index: true
 eleventyNavigation:
@@ -11,46 +11,37 @@ eleventyNavigation:
 blocks:
   - type: section-header
     intro: |
-      # Where could your project fit?
+      # Sunshine Coast service areas
 
-      **Service-area draft — individual locations are not yet confirmed.** Edina’s existing business description identifies the Sunshine Coast, Queensland. The candidate towns below are authoring prompts, not a promise that Edina serves every suburb in the region.
+      Include your suburb when you [enquire about a job](/contact/). Michael will confirm whether he can supply and install at your location.
 
-      [Send your suburb with your enquiry](/contact/) so Michael can confirm whether the location and work are a fit before you make arrangements.
+      **Draft: the town list and travel arrangements still need Michael’s confirmation.**
   - type: markdown
     content: |
-      ## Regional candidates to confirm
+      ## Notes for Michael
 
-      | Candidate | What Michael needs to confirm |
+      | Town to confirm | Details needed |
       | --- | --- |
-      | Buderim | Whether this is a regular service area, which work is offered and any travel conditions. |
-      | Maroochydore | Whether homeowner replacements, builder fix-outs or both are available here. |
-      | Noosa | The actual travel boundary and whether particular job scopes affect availability. |
-      | Caloundra | Whether this location is included and any conditions to explain before quoting. |
+      | Buderim | Service boundary, available work and travel terms. |
+      | Maroochydore | Availability for homeowner replacements and builder fix-outs. |
+      | Noosa | Travel boundary and any limits on the size or type of job. |
+      | Caloundra | Coverage and any travel or quoting conditions. |
 
-      These names come from the site’s local-content planning, not a record of past work. There are deliberately no town-swapped sales pages, invented local customers or claims about nearby projects.
+      These towns are suggestions for the draft, not confirmed coverage. Add local project links when there are completed jobs and customer-approved photographs to show.
 
-      ## What to send with a location enquiry
+      ## What to include in an enquiry
 
-      Your suburb, the type and number of doors, whether this is a replacement or a new build, and photos of the opening are useful starting details. Approximate measurements help with an initial quote; the [site measure](/process/) confirms the dimensions and scope.
+      Send your suburb, the type and number of doors, and photos of the opening. Say whether you’re replacing doors or building new. Approximate measurements help us prepare an initial quote; the [site measure](/process/) confirms dimensions and scope.
 
-      You do not need to publish a full street address in a public review or project story. Share any address needed for a visit privately after the enquiry is accepted.
+      Send your full address privately when arranging a visit.
   - type: faqs
     intro_content: |
-      ## Questions before this page can become a coverage statement
+      ## Travel and availability to confirm
     items:
-      - question: Which towns and boundaries will Edina genuinely service?
-        answer: Michael needs to confirm the list and any limits. Until then, no candidate should be treated as confirmed coverage.
-      - question: Are travel charges, minimum scopes or scheduling limits relevant?
-        answer: No terms have been supplied for publication. Ask Michael to state the applicable terms clearly rather than assuming that distance has no effect on a quote.
-      - question: Do the illustrative project pages prove local work?
-        answer: No. The [project briefs](/projects/) are fictional planning examples, visibly labelled and excluded from search indexing. Actual local project stories need real work, customer permission and evidence.
-  - type: cta
-    content: |
-      ## Start with your suburb and your doorway
-
-      Michael can confirm the location and scope directly. See [what Edina does and doesn’t do](/what-we-do/) before sending the details.
-    button:
-      text: Ask about your location
-      href: /contact/
-      size: lg
+      - question: Are there travel charges or a minimum job size?
+        answer: "Draft note for Michael: add the applicable travel charges, minimum scope and scheduling conditions."
+      - question: Do the sample project pages show work in these towns?
+        answer: No. The [sample project briefs](/projects/) are fictional examples, not a record of local installations.
+  - type: snippet
+    reference: contact-form
 ---

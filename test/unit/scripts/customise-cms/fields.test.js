@@ -61,18 +61,18 @@ describe("COMMON_FIELDS", () => {
 });
 
 describe("createEleventyNavigationField", () => {
-  test("includes only key and order by default", () => {
+  test("includes a parent key for nested navigation", () => {
     const field = createEleventyNavigationField();
     const names = field.fields.map((f) => f.name);
 
     expect(field.name).toBe("eleventyNavigation");
-    expect(names).toEqual(["key", "order"]);
+    expect(names).toEqual(["key", "parent", "order"]);
   });
 
   test("adds a url field when includeUrl is set", () => {
     const field = createEleventyNavigationField(true);
     const names = field.fields.map((f) => f.name);
 
-    expect(names).toEqual(["key", "order", "url"]);
+    expect(names).toEqual(["key", "parent", "order", "url"]);
   });
 });

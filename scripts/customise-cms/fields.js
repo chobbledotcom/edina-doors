@@ -162,6 +162,7 @@ export const createReferenceField = (
 export const createEleventyNavigationField = (includeUrl = false) => {
   const fields = [
     { name: "key", type: "string" },
+    { name: "parent", type: "string", label: "Parent navigation key" },
     { name: "order", type: "number" },
   ];
 

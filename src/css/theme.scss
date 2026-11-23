@@ -70,20 +70,6 @@
 		background: rgb(255 252 246 / 93%);
 	}
 
-	.design-preview {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.35rem 0.65rem;
-		justify-content: center;
-
-		padding: 0.75rem 1rem;
-
-		font-size: 0.75rem;
-		color: #596057;
-		text-align: center;
-		letter-spacing: 0.03em;
-	}
-
 	.btn {
 		padding: 0.85rem 1.4rem;
 		border-radius: 0.2rem;
@@ -126,6 +112,14 @@
 
 			.prose {
 				align-items: flex-start;
+
+				a:not(.btn) {
+					color: var(--color-contrast-text);
+
+					&:hover {
+						color: #eed0a0;
+					}
+				}
 			}
 		}
 
@@ -142,6 +136,30 @@
 		&.tinted::before {
 			background: linear-gradient(90deg, rgb(17 27 22 / 90%), rgb(17 27 22 / 55%) 50%, rgb(17 27 22 / 12%));
 		}
+	}
+
+	.image-background.category-hero {
+		min-height: 28rem;
+
+		> figure {
+			padding-block: clamp(3rem, 5vw, 5rem);
+		}
+
+		h1 {
+			max-width: 22ch;
+			font-size: clamp(2.6rem, 4.8vw, 4.5rem);
+		}
+
+		p {
+			max-width: 42rem;
+		}
+	}
+
+	.contact-form {
+		padding: clamp(1.25rem, 3vw, 2rem);
+		border: 1px solid rgb(113 80 45 / 20%);
+		border-radius: 0.2rem;
+		background: rgb(255 252 246 / 75%);
 	}
 
 	.material-interlude {
@@ -301,7 +319,6 @@
 			width: 12rem;
 			height: auto;
 			filter: invert(1);
-			mix-blend-mode: screen;
 		}
 	}
 
@@ -313,20 +330,6 @@
 		a {
 			text-decoration: none;
 		}
-	}
-
-	.footer-transparency {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-
-		padding: 1.5rem;
-		border: 1px solid rgb(229 228 217 / 25%);
-
-		font-size: 0.85rem;
-
-		background: rgb(255 252 246 / 4%);
-		backdrop-filter: blur(10px);
 	}
 
 	.footer-legal {

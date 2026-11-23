@@ -14,11 +14,11 @@ blocks:
     intro: |
       # Brands We Work With
 
-      We work with established Australian and New Zealand door and hardware brands to bring together options for your home or building project. From doors and frames to handles and smart locks, we select products to suit the job and take care of supply and installation.
+      We supply and install doors, frames, handles and smart locks from Australian and New Zealand brands. We select products to suit your home or building project.
   - type: image-cards
     image_aspect_ratio: "3/2"
     intro_content: |
-      ## Explore our brands
+      ## Door and hardware suppliers
 
       Click a logo to visit the brand’s website.
     items:
@@ -48,14 +48,7 @@ blocks:
         link: https://www.corinthian.com.au
   - type: markdown
     content: |
-      Have another style in mind? We can also source and install doors from other Australian suppliers and manufacturers, including Crown. Ask us about a particular door or hardware product and we’ll confirm availability and suitability.
-  - type: cta
-    content: |
-      ## Ask about a brand or product
-
-      Send us the brand, product name or a link. We’ll confirm whether it suits your door and project and include it in your quote where possible.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      Have another style in mind? We can also source and install doors from other Australian suppliers and manufacturers, including Crown. Send us the brand, product name or a link and we’ll confirm availability and suitability for your door and project, and include it in your quote where possible.
+  - type: snippet
+    reference: contact-form
 ---

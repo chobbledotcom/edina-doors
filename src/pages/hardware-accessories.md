@@ -10,11 +10,15 @@ eleventyNavigation:
   parent: Door Hardware
   order: 7
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/workshop-detail.jpg
+    image_alt: Generated illustration of timber workshop details
+    tint: true
+    class: category-hero
+    content: |
       # Hardware Accessories
 
-      The finishing details that help your doors and spaces work as they should. Edina supplies and installs hardware accessories selected to suit your project and complement your handles and locks.
+      We supply and install Handle House hinges, door stops, roller latches, barrel bolts and robe hooks, with finishes to match your handles and locks.
   - type: markdown
     content: |
       - **Hinges:** selected to suit the door’s size, weight and application, providing support and smooth operation.
@@ -45,16 +49,9 @@ blocks:
         caption: T102 — Robe hook
   - type: markdown
     content: |
-      The products shown are Edina’s selected range. Handle House offers an extensive range of handles, door hardware and accessories, which we can also source and install to suit your project.
+      We can also source and install other handles, hardware and accessories from the Handle House range.
 
       Available as part of an Edina door package or an upgrade to suitable existing doors, with finishes to coordinate with your selected hardware.
-  - type: cta
-    content: |
-      ## Finish the details
-
-      Tell us which doors and hardware you’re fitting. We’ll match hinges, stops, catches and bolts to the door, the application and the finish.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+  - type: snippet
+    reference: contact-form
 ---

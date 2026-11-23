@@ -8,16 +8,20 @@ eleventyNavigation:
   parent: Doors
   order: 3
 blocks:
-  - type: section-header
-    intro: |
+  - type: image-background
+    image: editorial/painted-door-macro.jpg
+    image_alt: Generated illustration of a painted door detail
+    tint: true
+    class: category-hero
+    content: |
       # Internal Doors
 
-      Manufactured by Hume & Corinthian. Supplied & installed by Edina.
+      We supply and install Hume and Corinthian hollow-core and shaker internal doors.
   - type: markdown
     content: |
       ## Hollow core doors
 
-      Our hollow core internal doors offer a lightweight, practical option for everyday living. Available in a range of standard sizes, with custom sizes available upon request.
+      Hollow-core doors are lightweight and available in standard sizes, with custom sizes available on request.
   - type: gallery
     masonry: true
     items:
@@ -39,7 +43,7 @@ blocks:
     content: |
       ## Shaker doors
 
-      Our shaker internal doors feature clean lines and recessed panel detailing, ready for painting to suit your interior. Available in standard sizes, with custom sizing options upon request. Supplied and installed by Edina Doors.
+      Shaker doors have recessed panels and are supplied ready for painting. Standard and custom sizes are available on request, supplied and installed by Edina Doors.
   - type: gallery
     masonry: true
     items:
@@ -53,16 +57,11 @@ blocks:
     content: |
       ## Existing frames and complete fix-outs
 
-      Our internal doors can be retrofitted into existing frames or supplied and installed as part of a complete interior fix-out package, including new doors, frames and hardware. Whether you’re updating individual rooms or fitting out an entire home, we can tailor the package to suit your project.
+      We can fit internal doors into existing frames or supply and install a complete interior fix-out with new doors, frames and hardware. The package can cover individual rooms, whole-home upgrades or new builds.
 
       Pair your internal doors with [Handle House levers](/lever-handles/) or [cavity slider hardware](/cavity-slider-hardware/), or read [how a job works](/process/).
-  - type: cta
-    content: |
-      ## Updating one room or the whole house?
 
-      Tell us how many doors you need, the suburb and whether you’re replacing existing doors or building new. We’ll work through the options and prepare an initial quote.
-    button:
-      text: Request a quote
-      href: /contact/
-      size: lg
+      For a quote, let us know whether you’re replacing existing doors or building new.
+  - type: snippet
+    reference: contact-form
 ---
