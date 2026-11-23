@@ -6,7 +6,7 @@ permalink: /contact/
 schema_type: organization
 eleventyNavigation:
   key: Contact
-  order: 5
+  order: 7
 blocks:
   - type: contact-form
     content: |
