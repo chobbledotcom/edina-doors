@@ -20,6 +20,18 @@ components:
     label: Meta Description
     options:
       maxlength: 160
+  faqs:
+    label: FAQs
+    type: object
+    list: true
+    fields:
+      - { name: question, type: string, label: Question, required: true }
+      - { name: answer, type: string, label: Answer, required: true }
+  gallery:
+    type: image
+    label: Gallery
+    options:
+      multiple: true
   block_callout:
     label: Callout
     type: object
@@ -719,18 +731,6 @@ components:
       - name: intro_content
         type: rich-text
         label: Intro Content (Markdown)
-  faqs:
-    label: FAQs
-    type: object
-    list: true
-    fields:
-      - { name: question, type: string, label: Question, required: true }
-      - { name: answer, type: string, label: Answer, required: true }
-  gallery:
-    type: image
-    label: Gallery
-    options:
-      multiple: true
 content:
   - name: pages
     label: Pages
@@ -747,6 +747,11 @@ content:
         - meta_title
     fields:
       - { name: name, type: string, label: Name, required: true }
+      - { name: permalink, type: string, label: Page Path (start with /) }
+      - name: redirect_from
+        type: string
+        label: Old Paths (start with /)
+        list: true
       - { name: subtitle, type: string, label: Subtitle }
       - { name: meta_title, component: meta_title }
       - { name: meta_description, component: meta_description }
@@ -760,6 +765,8 @@ content:
           - { name: url, type: string }
       - { name: layout, type: string }
       - { name: no_index, type: boolean, label: Hide from listings }
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
       - name: blocks
         label: Content Blocks
         type: block
@@ -804,10 +811,6 @@ content:
           - { name: table-of-contents, component: block_table_of_contents }
           - { name: video-background, component: block_video_background }
           - { name: video-cards, component: block_video_cards }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - { name: faqs, component: faqs }
-      - { name: gallery, component: gallery }
   - name: snippets
     label: Snippets
     path: src/snippets

@@ -17,6 +17,8 @@ blocks:
       # How a door installation works
 
       We prepare an initial quote from your photos, approximate measurements and preferred door styles. A site measure and final selections confirm the scope and price before we order materials and arrange installation.
+
+      We keep you informed about what’s included, what happens next and when payments are due, from the first quote through to installation and handover.
   - type: features
     intro_content: |
       ## Nine steps from quote to aftercare

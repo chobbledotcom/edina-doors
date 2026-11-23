@@ -13,6 +13,8 @@ import {
   createEleventyNavigationField,
   createMarkdownField,
   createObjectListField,
+  FAQS_FIELD,
+  GALLERY_FIELD,
 } from "#scripts/customise-cms/fields.js";
 import { compact } from "#utils/fp/array.js";
 
@@ -30,12 +32,16 @@ export const getCollectionFieldBuilders = (config) => ({
   pages: () =>
     compact([
       COMMON_FIELDS.name,
+      config.features.permalinks && COMMON_FIELDS.permalink,
+      config.features.redirects && COMMON_FIELDS.redirect_from,
       COMMON_FIELDS.subtitle,
       COMMON_FIELDS.meta_title,
       COMMON_FIELDS.meta_description,
       createEleventyNavigationField(config.features.external_navigation_urls),
       { name: "layout", type: "string" },
       config.features.no_index && COMMON_FIELDS.no_index,
+      config.features.faqs && FAQS_FIELD,
+      config.features.galleries && GALLERY_FIELD,
       blocksFieldFor("pages"),
     ]),
 

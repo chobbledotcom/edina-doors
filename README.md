@@ -77,7 +77,8 @@ without a destination show an email fallback; do not commit the deployment ID.
 Verify an actual submission after deployment.
 
 PagesCMS exposes both Markdown bodies and reusable blocks for snippets, plus
-the parent key needed to edit nested navigation.
+the parent key needed to edit nested navigation. Page Path and Old Paths are
+edited at the top of each page and must remain absolute paths beginning with `/`.
 
 ## Deployment
 

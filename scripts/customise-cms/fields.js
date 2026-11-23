@@ -53,11 +53,15 @@ export const COMMON_FIELDS = {
     _componentName: "meta_description",
     options: { maxlength: 160 },
   },
-  permalink: { name: "permalink", type: "string", label: "Permalink" },
+  permalink: {
+    name: "permalink",
+    type: "string",
+    label: "Page Path (start with /)",
+  },
   redirect_from: {
     name: "redirect_from",
     type: "string",
-    label: "Redirect From",
+    label: "Old Paths (start with /)",
     list: true,
   },
   order: { name: "order", type: "number", label: "Order" },

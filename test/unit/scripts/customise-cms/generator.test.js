@@ -215,6 +215,25 @@ describe("generatePagesYaml feature flags", () => {
     expect(fieldNames).not.toContain("redirect_from");
   });
 
+  test("puts page path fields before the block editor", () => {
+    const parsed = YAML.parse(
+      generatePagesYaml(
+        createTestConfig({
+          collections: ["pages"],
+          features: { permalinks: true, redirects: true },
+        }),
+      ),
+    );
+    const fields = parsed.content
+      .find((entry) => entry.name === "pages")
+      .fields.map((field) => field.name);
+
+    expect(fields.indexOf("permalink")).toBeLessThan(fields.indexOf("blocks"));
+    expect(fields.indexOf("redirect_from")).toBeLessThan(
+      fields.indexOf("blocks"),
+    );
+  });
+
   test("includes permalink and redirect_from when enabled", () => {
     const yaml = generatePagesYaml(
       createTestConfig({

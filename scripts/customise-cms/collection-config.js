@@ -63,7 +63,9 @@ const DYNAMIC_BUILDERS = {
  * @returns {CmsField[]} Fields with optional fields added
  */
 const addOptionalFields = (coreFields, collectionName, config) => {
-  if (collectionName === "snippets") return coreFields;
+  if (collectionName === "snippets" || collectionName === "pages") {
+    return coreFields;
+  }
 
   const alreadyHasBlocks = collectionName === "pages";
   return compact([

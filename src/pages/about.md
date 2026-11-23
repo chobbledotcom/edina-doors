@@ -13,9 +13,15 @@ blocks:
     content: |
       # About Michael Dunn
 
-      Edina Doors is run by Michael Dunn, a qualified carpenter from Edinburgh, Scotland. He now lives on the Sunshine Coast with his wife and two daughters. Edina is a name for Edinburgh.
+      Edina Doors is a Sunshine Coast business founded by Michael Dunn, a qualified carpenter originally from Edinburgh, Scotland. The name Edina reflects that connection to Edinburgh. Michael now lives on the Sunshine Coast with his wife and their two daughters.
 
       Michael supplies and installs doors for homeowners and builders. He helps with styles, sizes, frames and hardware, measures the opening and carries out the installation. You deal with him from the first enquiry through to completion.
+
+      After several years running a general carpentry business, Michael started Edina to focus on doors and finishing carpentry. That experience informs the product selection, site measurements and installation.
+
+      Edina brings doors, frames and hardware together through one point of contact, and helps clients work through the available styles, sizes and configurations.
+
+      As a small, hands-on business, Edina offers direct communication with the carpenter doing the work. Michael stays involved from the initial enquiry through to installation.
     figure_src: people/michael-portrait.jpg
     figure_alt: Fictional AI-generated adult carpenter portrait, not Michael Dunn
     figure_caption: "AI-generated stand-in, not Michael Dunn."
