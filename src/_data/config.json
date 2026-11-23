@@ -1,16 +1,20 @@
 {
-  "show_breadcrumbs": true,
-  "placeholder_images": true,
-  "enable_theme_switcher": true,
-  "nav_thumbnails": false,
-  "search_collections": [
-    "pages",
-    "guide-pages",
-    "guide-categories"
-  ],
-  "review_sources": {
-    "google_business_id": "ChIJkUbKXSqve0gRaqWxtHQ0Q1o",
-    "facebook_page_url": "https://www.facebook.com/ChobbleDotCom",
-    "trustpilot_url": "https://uk.trustpilot.com/review/chobble.com"
-  }
+	"horizontal_nav": true,
+	"sticky_mobile_nav": true,
+	"collapse_menu": "mobile",
+	"show_breadcrumbs": true,
+	"nav_thumbnails": false,
+	"enable_theme_switcher": false,
+	"placeholder_images": false,
+	"search_collections": ["pages"],
+	"homepage_footer_markdown": "",
+	"linkify_urls": true,
+	"externalLinksTargetBlank": true,
+	"phoneNumberLength": 0,
+	"contact_form_target": null,
+	"formspark_id": null,
+	"botpoison_public_key": null,
+	"currency": "AUD",
+	"review_sources": {},
+	"disable_liquid_cache": false
 }

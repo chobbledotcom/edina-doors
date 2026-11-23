@@ -22,15 +22,6 @@ export interface PagesCMSFaq {
   answer: string;
 }
 
-export interface PagesCMSOption {
-  /** Name */
-  name: string;
-  /** Price */
-  unit_price: number;
-  /** Days of Hire */
-  days?: number;
-}
-
 export interface PagesCMSSocial {
   /** Github */
   Github?: string;

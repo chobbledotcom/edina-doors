@@ -1,20 +1,11 @@
 {
-	"name": "Chobble Template",
-	"url": "https://example.chobble.com",
-	"description": "A static-site template for informational and marketing sites.",
-	"socials": {
-		"Github": "https://github.com/chobbledotcom/chobble-template",
-		"RSS": "/feed.xml"
-	},
+	"name": "Edina Doors",
+	"url": "https://www.edinadoors.com.au",
+	"description": "Door supply and installation on the Sunshine Coast: timber and aluminium front doors, internal doors, architectural hardware and Vault smart locks, supplied and fitted by carpenter Michael Dunn.",
+	"logo": "/images/logo.png",
+	"socials": {},
 	"cms_config": {
-		"collections": [
-			"pages",
-			"news",
-			"products",
-			"guide-categories",
-			"guide-pages",
-			"snippets"
-		],
+		"collections": ["pages", "snippets"],
 		"features": {
 			"permalinks": true,
 			"redirects": true,

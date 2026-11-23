@@ -1,15 +1,31 @@
-// Default Theme - matches design-system defaults from _variables.scss
+// Edina Doors theme: warm paper, charcoal ink and a timber accent.
 :root {
-  --color-bg: #fafafa;
-  --body-background: #fafafa;
-  --body-background-alt: #f0f1f3;
-  --color-card-bg: #fff;
-  --color-text: #1f2937;
-  --color-text-muted: #5b6270;
-  --color-link: #2563eb;
-  --color-link-hover: #1d4ed8;
-  --color-tint: #dbeafe;
-  --color-secondary: #7c3aed;
-  --color-accent: #ebebeb;
-  --color-hover-bg: rgb(0 0 0 / 5%);
+	--color-bg: #f8f5f0;
+	--body-background: #f8f5f0;
+	--body-background-alt: #eee8df;
+	--color-card-bg: #fffdfa;
+	--color-text: #23201c;
+	--color-text-muted: #5d564e;
+	--color-link: #8a4b2a;
+	--color-link-hover: #6f3a1e;
+	--color-tint: #ead9c9;
+	--color-secondary: #37554a;
+	--color-accent: #ece5da;
+	--color-hover-bg: rgb(35 32 28 / 5%);
+	--font-family-body: "Optima", "Candara", "Noto Sans", system-ui, sans-serif;
+	--font-family-heading: "Iowan Old Style", "Palatino Linotype",
+		"URW Palladio L", "P052", "Georgia", serif;
+}
+
+// Product photographs sit on white, so give the gallery frames a quiet edge.
+.items .image-link {
+	background: #fff;
+}
+
+// Keep the header search compact enough for the five top-level menu items
+// to stay on one row at common laptop widths.
+@media (width <= 1200px) {
+	.site-nav .search-box input[type="search"] {
+		width: 7rem;
+	}
 }

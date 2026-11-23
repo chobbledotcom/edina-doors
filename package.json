@@ -25,7 +25,6 @@
 		"build": "rm -rf _site && node scripts/eleventy-build.js && npm run check:links",
 		"serve": "rm -rf _site && node scripts/eleventy-build.js --serve --incremental",
 		"test": "node ./test/run-tests.js",
-		"test:fork": "node ./test/fork-simulation.js",
 		"test:unit": "vitest run test/unit",
 		"test:integration": "vitest run test/integration",
 		"typecheck": "tsc --noEmit --incremental --tsBuildInfoFile tsconfig.tsbuildinfo",

@@ -79,7 +79,7 @@ disagree with reality, regenerate rather than trusting either.
 | `src/css/` | `theme.scss` (the site's token overrides), prebuilt themes, and the `design-system/` partials the blocks rely on |
 | `src/_lib/` | All build-time and browser JavaScript; see the [library map](src/_lib/README.md) |
 | `scripts/` | Build wrapper, generators, checks, and tooling |
-| `test/` | The suite, its fixtures, and the fork simulation |
+| `test/` | The suite and its fixtures |
 | `docs/` | The generated Site Builder Reference, served at `/docs/` on each deployment |
 | `skills/chobble-template-site-builder/` | The Agent Skill: workflow, references, and evals |
 | `.github/workflows/` | CI and the deployment workflows |
@@ -181,8 +181,7 @@ blocks:
   `src/snippets/<language>/<name>.md` overrides `src/snippets/<name>.md`.
   `footer-content` is the named global region.
 - **News and guides** are optional collections a site enables through the
-  CMS customizer; forks that do not use them delete their demo content, and
-  the fork simulation proves the template's own tests still pass afterwards.
+  CMS customizer; this site does not use them.
 
 ## The Editing Layer
 
@@ -261,12 +260,9 @@ integration tests that spawn real Eleventy builds.
 
 Two properties matter as much as the list:
 
-- **The tests are fork-safe.** They read fixtures from `test/fixtures/`, not
-  the fork's own content — in-process imports of `src/_data/*.json` are
+- **The tests are fixture-backed.** They read fixtures from `test/fixtures/`,
+  not the site's own content — in-process imports of `src/_data/*.json` are
   redirected there, and the test-site factory overlays the same fixtures.
-  `npm run test:fork` proves it: it deletes the demo content, rewrites site
-  data the way a real fork does, and runs the whole suite against the
-  result.
 - **Ratchets only tighten.** The copy-paste and code-quality baselines are
   deletion-only legacy records; an entry can be removed but a new violation
   cannot be added. Mutation testing (`npm run mutation`) is available to check

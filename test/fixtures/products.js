@@ -1,17 +1,7 @@
 /**
  * Products as a site writes them in src/products/, shared by the tests of
- * the quote: one hired by the day, one bought in either of two sizes.
+ * the collection directory data.
  */
-
-/** A hire product: a day, or a weekend, and at most two to a quote. */
-export const TENT = {
-  name: "Tent",
-  max_quantity: 2,
-  options: [
-    { name: "Day", days: 1, unit_price: 80 },
-    { name: "Weekend", days: 3, unit_price: 180 },
-  ],
-};
 
 /** A product to buy, in a small or large size. */
 export const PLATTER = {

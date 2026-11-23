@@ -78,9 +78,7 @@ template, never the site's content. Site data comes from
 redirected there), images and files from `test/fixtures/`, and collection
 directory data from `#collections/directory-data.js`. Only checks of a site's
 own generated artifacts, such as `.pages.yml` against its `site.json`, read the
-real files. `npm run test:fork` deletes the demo content, rewrites the site data
-the way a fork does, and runs the whole suite against that copy; CI runs it on
-every pull request.
+real files.
 
 **Do not run `npm run test` repeatedly to diagnose one issue.** Start with a
 file, test name, or subsystem:
